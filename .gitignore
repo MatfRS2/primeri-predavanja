@@ -28437,3 +28437,15 @@ docker/_geting_started/08-multy-container/app/node_modules/minimist/test/dash.js
 /dotnetcore/01-konstrukcije-jezika/lambdas/01-simple-lambda/obj/Debug/netcoreapp3.1/01.simple.lambda.csprojAssemblyReference.cache
 /dotnetcore/01-konstrukcije-jezika/functions/02-optional-params/obj/Debug/netcoreapp3.1/02.optional.named.params.csprojAssemblyReference.cache
 /dotnetcore/01-konstrukcije-jezika/indexers/02-indexer-overload/obj/Debug/netcoreapp3.1/02.indexer.overload.csprojAssemblyReference.cache
+/dotnetcore/01-language/01-functions/01-simple-case/obj
+/dotnetcore/01-language/01-functions/01-simple-case/bin/Debug/netcoreapp3.1
+/dotnetcore/01-language/01-functions/02-optional-params/obj
+/dotnetcore/01-language/01-functions/02-optional-params/bin/Debug/netcoreapp3.1
+/dotnetcore/01-language/01-functions/03-out-param/obj
+/dotnetcore/01-language/01-functions/03-out-param/bin/Debug/netcoreapp3.1
+/dotnetcore/01-language/01-functions/04-ref-params/obj
+/dotnetcore/01-language/01-functions/04-ref-params/bin/Debug/netcoreapp3.1
+/dotnetcore/01-language/01-functions/05-ref-params-class/obj
+/dotnetcore/01-language/01-functions/05-ref-params-class/bin/Debug/netcoreapp3.1
+/dotnetcore/01-language/01-functions/06-extensions/obj
+/dotnetcore/01-language/01-functions/06-extensions/bin/Debug/netcoreapp3.1
