@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace RS2.SimpleCase
+namespace RS2.Funkcije.Jednostavno
 {
     class Program
     {
@@ -54,14 +54,14 @@ namespace RS2.SimpleCase
 
             int z = 2;
             StampajViseLinija(z);
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Zdravo svete!");
             StampajViseLinija(z);
             Console.WriteLine();
 
             z = BrojSlova("123 Miki Maus 123");
             Console.WriteLine(z);
             Console.WriteLine(Nalepi("Miki Maus ", 2));
-            Console.WriteLine(Nalepi(brojPonavljanja: 4, s:"Paja Patak "));
+            Console.WriteLine(Nalepi(brojPonavljanja: 4, s: "Paja Patak "));
             Console.WriteLine();
         }
     }
@@ -74,7 +74,7 @@ namespace RS2.SimpleCase
 
 -- 0 --
 -- 1 --
-Hello World!
+Zdravo svete!
 -- 0 --
 -- 1 --
 
@@ -82,5 +82,5 @@ Hello World!
 Miki Maus Miki Maus
 Paja Patak Paja Patak Paja Patak Paja Patak
 
- */
+*/
 
