@@ -1,51 +1,94 @@
 ﻿using System;
 
-namespace RS2.N05RefParamsClass
+namespace RS2.Funkcije.ParametriRefUMetodu;
+
+class AlgebarskiKompleksni
 {
 
-    class Complex
+    private int realniDeo, imaginarniDeo;
+
+    public AlgebarskiKompleksni(int r, int i)
     {
-
-        private int real, img;
-
-        public Complex(int r, int i)
-        {
-            real = r;
-            img = i;
-        }
-
-        public int getRealValue()
-        {
-            return real;
-        }
-
-        public int getImgValue()
-        {
-            return img;
-        }
-
-        public static void Update(ref Complex obj)
-        {
-            obj.real += 5;
-            obj.img += 5;
-        }
+        realniDeo = r;
+        imaginarniDeo = i;
     }
 
-    class Program
+    public int getRe()
     {
+        return realniDeo;
+    }
 
-        static void Main(string[] args)
-        {
-            Complex cmplx = new Complex(2, 4);
-            Console.WriteLine("Complex number {0} =  {1} + i {2}", nameof(cmplx),
-                cmplx.getRealValue(), cmplx.getImgValue());
+    public int getIm()
+    {
+        return imaginarniDeo;
+    }
 
-            Complex.Update(ref cmplx);
-            Console.WriteLine("After updating {0}", nameof(cmplx) );
-            Console.WriteLine("Complex number {0} =  {1} + i {2}", nameof(cmplx),
-                cmplx.getRealValue(), cmplx.getImgValue());
-        }
+    public static void Azuriraj1(AlgebarskiKompleksni obj)
+    {
+        obj.realniDeo += 5;
+        obj.imaginarniDeo += 5;
+    }
 
+    public static void Azuriraj2(ref AlgebarskiKompleksni obj)
+    {
+        obj.realniDeo += 5;
+        obj.imaginarniDeo += 5;
+    }
+
+    public static void Azuriraj3(AlgebarskiKompleksni obj)
+    {
+        obj = new AlgebarskiKompleksni(1, 2);
+    }
+
+    public static void Azuriraj4(ref AlgebarskiKompleksni obj)
+    {
+        obj = new AlgebarskiKompleksni(1, 2);
     }
 
 }
+
+class Program
+{
+
+    static void Main(string[] args)
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        AlgebarskiKompleksni kompl = new AlgebarskiKompleksni(2, 4);
+        Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
+            kompl.getRe(), kompl.getIm());
+
+        AlgebarskiKompleksni.Azuriraj1(kompl);
+        Console.WriteLine("Posle \"normalnog\" ažuriranja gde se modifikuju polja {0}", nameof(kompl));
+        Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
+            kompl.getRe(), kompl.getIm());
+
+        AlgebarskiKompleksni.Azuriraj2(ref kompl);
+        Console.WriteLine("Posle ažuriranja po referenci gde se modifikuju polja {0}", nameof(kompl) );
+        Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
+            kompl.getRe(), kompl.getIm());
+
+        AlgebarskiKompleksni.Azuriraj3(kompl);
+        Console.WriteLine("Posle \"normalnog\" ažuriranja gde se menja ceo objekat {0}", nameof(kompl));
+        Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
+            kompl.getRe(), kompl.getIm());
+
+        AlgebarskiKompleksni.Azuriraj4(ref kompl);
+        Console.WriteLine("Posle ažuriranja po referenci gde se menja ceo objekat {0}", nameof(kompl));
+        Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
+            kompl.getRe(), kompl.getIm());
+    }
+}
+
+/* Izlaz dobijen prilikom izvršavanja programa:
+Kompleksni broj kompl =  2 + i 4
+Posle "normalnog" ažuriranja gde se modifikuju polja kompl
+Kompleksni broj kompl =  7 + i 9
+Posle ažuriranja po referenci gde se modifikuju polja kompl
+Kompleksni broj kompl =  12 + i 14
+Posle "normalnog" ažuriranja gde se menja ceo objekat kompl
+Kompleksni broj kompl =  12 + i 14
+Posle ažuriranja po referenci gde se menja ceo objekat kompl
+Kompleksni broj kompl =  1 + i 2
+
+*/

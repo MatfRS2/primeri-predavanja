@@ -50,12 +50,14 @@ namespace RS2.Funkcije.OpcionalniImenovaniParametri
         static public void Prikaz2(string ime = "Marko", int age = 20,
             string prezime = "Marković")
         {
-            Console.WriteLine("Full name: {0} {1}", ime, prezime);
-            Console.WriteLine("Age: {0}", age);
+            Console.WriteLine("Puno ime: {0} {1}", ime, prezime);
+            Console.WriteLine("Uzrast:   {0}", age);
         }
 
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             prikazOdDo(35, 40);
             prikazOdDo();
             Console.WriteLine("---");
@@ -68,27 +70,26 @@ namespace RS2.Funkcije.OpcionalniImenovaniParametri
             StampajViseLinija();
             Console.WriteLine("---");
 
-            int z = BrojSlova("123 Miki Maus 123");
+            int z = BrojSlova("123 Petar Petrović 123");
             Console.WriteLine(z);
-            Console.WriteLine(Nalepi("Miki Maus ", 4));
-            Console.WriteLine(Nalepi("Paja Patak "));
-            Console.WriteLine(Nalepi(brojPonavljanja:3, niska: "Raja Patak "));
+            Console.WriteLine(Nalepi("Petar Petrović ", 4));
+            Console.WriteLine(Nalepi("Janko Janković "));
+            Console.WriteLine(Nalepi(brojPonavljanja:3, niska: "Marko Marković "));
             Console.WriteLine("---");
 
-            Prikaz2("Baja", 90, "Patak");
-            Prikaz2("Miki", 95);
-            Prikaz2("Baja");
+            Prikaz2("Jovan", 90, "Jovanović");
+            Prikaz2("Žarko", 95);
+            Prikaz2("Marko");
             Prikaz2();
-            Prikaz2(prezime: "Patak", ime: "Paja");
-            Prikaz2(prezime: "Patak");
+            Prikaz2(prezime: "Jovanović", ime: "Jovan");
+            Prikaz2(prezime: "Ivanović");
             Console.WriteLine("---");
         }
     }
 }
 
 /* Izlaz dobijen prilikom izvršavanja programa:
-
-
+35
 36
 37
 38
@@ -105,22 +106,23 @@ namespace RS2.Funkcije.OpcionalniImenovaniParametri
 -- 0 --
 -- 1 --
 ---
-8
-Miki Maus Miki Maus Miki Maus Miki Maus
-Paja Patak Paja Patak
-Raja Patak Raja Patak Raja Patak
+12
+Petar Petrović Petar Petrović Petar Petrović Petar Petrović
+Janko Janković Janko Janković
+Marko Marković Marko Marković Marko Marković
 ---
-Full name: Baja Patak
-Age: 90
-Full name: Miki Markovic
-Age: 95
-Full name: Baja Markovic
-Age: 20
-Full name: Marko Markovic
-Age: 20
-Full name: Paja Patak
-Age: 20
-Full name: Marko Patak
-Age: 20
+Puno ime: Jovan Jovanović
+Uzrast:   90
+Puno ime: Žarko Marković
+Uzrast:   95
+Puno ime: Marko Marković
+Uzrast:   20
+Puno ime: Marko Marković
+Uzrast:   20
+Puno ime: Jovan Jovanović
+Uzrast:   20
+Puno ime: Marko Ivanović
+Uzrast:   20
+---
 ---
  */
