@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30406.217
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-konstrukcije-jezika", "01-konstrukcije-jezika", "{C581030E-4957-438C-A2A9-0E98A3AE86A8}"
 EndProject
@@ -222,6 +222,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.records.positional.short", "01-language\16-records\03-positional-records-short\03.records.positional.short.csproj", "{349599CB-3354-42BB-BDBA-8C7DC5FE5080}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.records.inheritance", "01-language\16-records\04-records-inheritance\04.records.inheritance.csproj", "{E74B85B3-FF8F-47A3-9F58-E07633F4987C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.inheritance.constructor", "01-language\02-classes\00-inheritance-constructor\00.inheritance.constructor.csproj", "{E719C1B1-24E4-4CF3-9512-646C35246E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -573,6 +575,10 @@ Global
 		{E74B85B3-FF8F-47A3-9F58-E07633F4987C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E74B85B3-FF8F-47A3-9F58-E07633F4987C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E74B85B3-FF8F-47A3-9F58-E07633F4987C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E719C1B1-24E4-4CF3-9512-646C35246E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E719C1B1-24E4-4CF3-9512-646C35246E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E719C1B1-24E4-4CF3-9512-646C35246E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E719C1B1-24E4-4CF3-9512-646C35246E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -686,6 +692,7 @@ Global
 		{602487BE-F93B-4C64-9249-9A336480FCA1} = {1C1C4429-92B9-4FBF-AFF6-D874E60CA5F6}
 		{349599CB-3354-42BB-BDBA-8C7DC5FE5080} = {1C1C4429-92B9-4FBF-AFF6-D874E60CA5F6}
 		{E74B85B3-FF8F-47A3-9F58-E07633F4987C} = {1C1C4429-92B9-4FBF-AFF6-D874E60CA5F6}
+		{E719C1B1-24E4-4CF3-9512-646C35246E60} = {BE20BD4C-018E-42D9-AFB6-C645D98E2F58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}

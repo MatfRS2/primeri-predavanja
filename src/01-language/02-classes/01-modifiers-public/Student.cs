@@ -1,4 +1,4 @@
-﻿namespace RS2.ModifiersPublic
+﻿namespace RS2.Klase
 {
 
     class Student
