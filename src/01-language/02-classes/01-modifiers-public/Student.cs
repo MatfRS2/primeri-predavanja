@@ -1,28 +1,28 @@
-namespace RS2.ModifiersPublic
+﻿namespace RS2.ModifiersPublic
 {
 
-    class Student { 
-    // Declaring members rollNo 
-    // and name as public 
-    public int rollNo; 
-    public string name; 
+    class Student
+    {
+        // Polja brojIndeksa i imePrezime su javna
+        public int brojIdneksa;
+        public string imePrezime;
 
-    // Constructor 
-    public Student(int r, string n) 
-    { 
-        rollNo = r; 
-        name = n; 
-    } 
+        // Konstruktor 
+        public Student(int bi, string ip)
+        {
+            brojIdneksa = bi;
+            imePrezime = ip;
+        }
 
-    // methods getRollNo and getName 
-    // also declared as public 
-    public int getRollNo() 
-    { 
-        return rollNo; 
-    } 
-    public string getName() 
-    { 
-        return name; 
-    } 
-} 
+        // Metodi getBrojIndeksa i getImePrezime su takođe javni
+        public int getBrojIndeksa()
+        {
+            return brojIdneksa;
+        }
+
+        public string getImePrezime()
+        {
+            return imePrezime;
+        }
+    }
 }

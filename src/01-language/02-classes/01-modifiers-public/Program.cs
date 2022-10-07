@@ -25,15 +25,15 @@ class Program {
         // Displaying details directly 
         // using the class members 
         // accessible through another method 
-        Console.WriteLine("Roll number: {0}", stud.rollNo); 
-        Console.WriteLine("Name: {0}", stud.name); 
+        Console.WriteLine("Roll number: {0}", stud.brojIdneksa); 
+        Console.WriteLine("Name: {0}", stud.imePrezime); 
 
         Console.WriteLine(); 
 
         // Displaying details using  
         // member method also public 
-        Console.WriteLine("Roll number: {0}", stud.getRollNo()); 
-        Console.WriteLine("Name: {0}", stud.getName()); 
+        Console.WriteLine("Roll number: {0}", stud.getBrojIndeksa()); 
+        Console.WriteLine("Name: {0}", stud.getImePrezime()); 
     } 
 } 
 

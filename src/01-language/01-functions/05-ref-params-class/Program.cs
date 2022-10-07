@@ -81,6 +81,7 @@ class Program
 }
 
 /* Izlaz dobijen prilikom izvršavanja programa:
+ 
 Kompleksni broj kompl =  2 + i 4
 Posle "normalnog" ažuriranja gde se modifikuju polja kompl
 Kompleksni broj kompl =  7 + i 9

@@ -29155,3 +29155,4 @@ docker/_geting_started/08-multy-container/app/node_modules/minimist/test/dash.js
 /src/.vs/ProjectEvaluation/dotnetsamples.metadata.v5.1
 /src/.vs/DotnetSamples/v17/.futdcache.v2
 /src/.vs/DotnetSamples/FileContentIndex/72c5d46b-8bab-41b0-8360-bce6d62bdb66.vsidx
+*.vsidx
