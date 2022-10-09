@@ -19,7 +19,6 @@ To je imenovna grupa klasa koje iamju zajedničke karakteristike.
 Oni pomažu u kontroli opsega za metode i klase kod većih .NET programskih projekata. 
 Može se reći da oni obezbeđuju da jedan skup imena (npr. imena klasa) ne bude u koliziji sa 
 drugim skupom imena. 
-It is also referred as named group of classes having common features. 
 Prostori imena mohu sadržavati klase, prostore imena, interfejse, strukture i delegate.
   
 

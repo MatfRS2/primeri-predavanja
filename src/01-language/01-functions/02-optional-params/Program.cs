@@ -2,7 +2,7 @@
 
 Opcioni parametri
 
-U definicji funkcije tj. metoda (kao i konstruktora, indeksera ili delegata) se 
+U definicиji funkcije tj. metoda (kao i konstruktora, indeksera ili delegata) se 
 njegovi parametri mogu specificrati kao obavezni ili kao opcioni. 
 Poziv funkcije mora obezbediti sve obavezne parametre, ali opcioni prametri 
 mogu da  ne budu specificirani - tada se u supstituciji koristi njihova 
@@ -12,7 +12,7 @@ definicije, pa ako vrednost argumenta za taj parametar nije specificirana u
 pozivu, koristiće se ta podrazumevana vrednost. 
 Opcioni parametri su definisani na karju liste parametara, posle svih 
 obaveznih.
-AKo se pri pozivu obezbeđuje vrednost za neki opcioni parmetar, potrebno je 
+Aкo se pri pozivu obezbeđuje vrednost za neki opcioni parmetar, potrebno je 
 obezbediti vrednosti za sve opcione parametre koji mu prethode.
 
 Imenovani argumenti
