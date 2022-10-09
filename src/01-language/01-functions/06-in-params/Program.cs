@@ -1,17 +1,19 @@
 ﻿/*
 
-Parametar out
+Parametar in
 
-The out keyword causes arguments to be passed by reference. 
-It makes the formal parameter an alias for the argument, which must be a 
-variable. 
+The in keyword causes arguments to be passed by reference but ensures the argument is not modified. 
+It makes the formal parameter an alias for the argument, which must be a variable. 
 In other words, any operation on the parameter is made on the argument. 
-It is like the ref keyword, except that ref requires that the variable be 
-initialized before it is passed. 
-It is also like the in keyword, except that in does not allow the called method 
-to modify the argument value. 
-To use an out parameter, both the method definition and the calling method 
-must explicitly use the out keyword.
+It is like the ref or out keywords, except that in arguments cannot be modified by the called method. 
+Whereas ref arguments may be modified, out arguments must be modified by the called method, and those 
+modifications are observable in the calling context.
+Variables passed as in arguments must be initialized before being passed in a method call. 
+However, the called method may not assign a value or modify the argument.
+Although in, out, and ref parameter modifiers are considered part of a signature, members declared in a single 
+type cannot differ in signature solely by in, ref and out. 
+Therefore, methods cannot be overloaded if the only difference is that one method takes a ref or out argument 
+and the other takes an in argument.
 
 */
 
@@ -21,42 +23,28 @@ namespace RS2.Funkcije.ParametriOut;
 
 class Program
 {
-    static void PostaviDuplirajVrednosti(out int x, out int y)
+    static int SaberiDupliraneVrednosti(in int x, in int y)
     {
-        x = 5;
-        y = 10;
-        x += x;
-        y += y;
+        // x += y;
+        // return 2 * x;
+        return 2 * (x + y);
     }
 
     static void Main(string[] args)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        // Promenljive su deklarisane, ali nisu inicijalizovane
-        int a, b;
+        int a = 7, b = 9;
 
-        PostaviDuplirajVrednosti(out a, out b);
-        // Prikaži početne vrednosti 
-        Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(a), a);
-        Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(b), b);
-        Console.WriteLine();
-
-        // Deklaracija proemnljive može da se bude u okviru argumenta poziva funkcije
-        PostaviDuplirajVrednosti(out int c, out int d);
-        // Prikaži vrednosti po pozivu metoda 
-        Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(c), c);
-        Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(d), d);
-        Console.WriteLine();
+        int c = SaberiDupliraneVrednosti(in a, in b);
+        // Prikaži vrednost koju vraće metod 
+        Console.WriteLine("Vrednost dupliranog zbira je {0}", c);
     }
 
 }
 
 /* Izlaz dobijen prilikom izvršavanja programa:
-Vrednost promenljive a je 10
-Vrednost promenljive b je 20
-
-Vrednost promenljive c je 10
-Vrednost promenljive d je 20
+ 
+Vrednost dupliranog zbira je 32
 
 */
