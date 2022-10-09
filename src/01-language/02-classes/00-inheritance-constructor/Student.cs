@@ -10,6 +10,11 @@ class Student : Covek
         brojIndeksa = bi;
     }
 
+    public Student(int bi) : this(bi, "Непознат студент")
+    {
+        brojIndeksa = bi;
+    }
+
     public int getBrojIndeksa()
     {
         return brojIndeksa;

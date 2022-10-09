@@ -59,7 +59,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ref.params.class", "01-l
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.extension.methods", "01-language\01-functions\06-extensions\06.extension.methods.csproj", "{91D21BF9-77E6-43EE-89D3-29D7E1CE88E6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.modifiers.public", "01-language\02-classes\01-modifiers-public\01.modifiers.public.csproj", "{8F582078-DB70-4A2A-8B41-BE7C8D95EAE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.modifiers.public", "01-language\02-classes\01-modifiers-public\00.modifiers.public.csproj", "{8F582078-DB70-4A2A-8B41-BE7C8D95EAE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.modifiers.protected", "01-language\02-classes\02-modifiers-protected\02.modifiers.protected.csproj", "{6072427A-527D-4724-B7BB-D27C54444D3A}"
 EndProject
@@ -223,7 +223,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.records.positional.short
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.records.inheritance", "01-language\16-records\04-records-inheritance\04.records.inheritance.csproj", "{E74B85B3-FF8F-47A3-9F58-E07633F4987C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.inheritance.constructor", "01-language\02-classes\00-inheritance-constructor\00.inheritance.constructor.csproj", "{E719C1B1-24E4-4CF3-9512-646C35246E60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.inheritance.constructor", "01-language\02-classes\00-inheritance-constructor\01.inheritance.constructor.csproj", "{E719C1B1-24E4-4CF3-9512-646C35246E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

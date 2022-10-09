@@ -4,21 +4,41 @@ using System;
 
 namespace RS2.Klase.NasledjivanjeKonstruktor;
 
+/*
+ 
+U ovom primeru je klasa Student izvedena iz klase Covek.
+Svaka od klasa je definisana u posabnoj datoteci. 
+Konstruktor klase Student poziva konstruktor klase Covek.  
+
+*/ 
+
 class Program
 {
-
     static void Main(string[] args)
     {
-        Student stud = new Student(1, "Astrid");
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        Console.WriteLine("Roll number: {0}", stud.getBrojIndeksa());
-        Console.WriteLine("Name: {0}", stud.getImePrezime());
-        Console.WriteLine();
+        Student stud = new Student(1, "Митар Митровић");
 
-        //Console.WriteLine("Roll number: {0}", stud.brojIndeksa);
-        //Console.WriteLine("Name: {0}", stud.imePrezime);
-        //Console.WriteLine();
+        Console.WriteLine("Ознака:        {0}", stud.getBrojIndeksa());
+        Console.WriteLine("Име и презиме: {0}", stud.getImePrezime());
+        Console.WriteLine("---");
 
+        stud = new Student(2);
+        Console.WriteLine("Ознака:        {0}", stud.getBrojIndeksa());
+        Console.WriteLine("Име и презиме: {0}", stud.getImePrezime());
     }
 }
+
+/* Izlaz dobijen prilikom izvršavanja programa:
+ 
+Ознака:        1
+Име и презиме: Митар Митровић
+---
+Ознака:        2
+Име и презиме: Непознат студент
+
+
+*/
+
 

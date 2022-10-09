@@ -1,28 +1,26 @@
-﻿namespace RS2.Klase
+﻿namespace RS2.Klase.ElementiPublic;
+
+class Student
 {
+    // Polja brojIndeksa i imePrezime su privatna
+    int brojIdneksa;
+    string imePrezime;
 
-    class Student
+    // Konstruktor 
+    public Student(int bi, string ip)
     {
-        // Polja brojIndeksa i imePrezime su javna
-        public int brojIdneksa;
-        public string imePrezime;
+        brojIdneksa = bi;
+        imePrezime = ip;
+    }
 
-        // Konstruktor 
-        public Student(int bi, string ip)
-        {
-            brojIdneksa = bi;
-            imePrezime = ip;
-        }
+    // Metodi getBrojIndeksa i getImePrezime su javni
+    public int getBrojIndeksa()
+    {
+        return brojIdneksa;
+    }
 
-        // Metodi getBrojIndeksa i getImePrezime su takođe javni
-        public int getBrojIndeksa()
-        {
-            return brojIdneksa;
-        }
-
-        public string getImePrezime()
-        {
-            return imePrezime;
-        }
+    public string getImePrezime()
+    {
+        return imePrezime;
     }
 }
