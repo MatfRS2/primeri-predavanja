@@ -2,15 +2,19 @@
 
 Parametar ref 
 
-When used in a method's parameter list, the ref keyword indicates that an argument is passed by 
-reference, not by value. 
-The ref keyword makes the formal parameter an alias for the argument, which must be a variable. 
-In other words, any operation on the parameter is made on the argument.
-To use a ref parameter, both the method definition and the calling method must explicitly use 
-the ref keyword.
-An argument that is passed to a ref or in parameter must be initialized before it's passed. 
+Кључна реч ref у листи параметара метода указује да се приликом позива врши супституција по референци, а не по вредности. 
+
+Ова кључна реч чини да (формални) параметар буде само друго име за променљиву која је аргумент у позиву функције. 
+
+Овде ма која операција над параметром у ствари рализује над аргументом (аргумент мора бити променљива).
+
+Када се користи ref параметар, тада и параметар у декларацији метода и аргумент у позиву метода морају бити експлицитно значени са ref.
+
+Аргумент у позиву маркиран са  ref мора бити иницијализован пре позива. 
+ 
 Members of a class can't have signatures that differ only by ref, in, or out. 
-A compiler error occurs if the only difference between two members of a type is that one of them 
+
+A compiler erда се ror occurs if the only difference between two members of a type is that one of them 
 has a ref parameter and the other has an out, or in parameter.
 
 */

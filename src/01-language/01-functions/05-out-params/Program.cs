@@ -2,16 +2,15 @@
 
 Parametar out
 
-The out keyword causes arguments to be passed by reference. 
-It makes the formal parameter an alias for the argument, which must be a 
-variable. 
-In other words, any operation on the parameter is made on the argument. 
-It is like the ref keyword, except that ref requires that the variable be 
-initialized before it is passed. 
-It is also like the in keyword, except that in does not allow the called method 
-to modify the argument value. 
-To use an out parameter, both the method definition and the calling method 
-must explicitly use the out keyword.
+Кључна реч out у листи параметара метода указује да се приликом позива врши супституција по референци. 
+
+Ова кључна реч чини да (формални) параметар буде само друго име за променљиву - аргумент у позиву функције. 
+
+Ма која операција над параметром у ствари рализује над аргументом (аргумент мора бити променљива).
+
+Личи на ref, само што се овде не захтева да аргумент буде иницијализован пре позива функције.
+
+Када се користи out параметар, тада и параметар у декларацији метода и аргумент у позиву метода морају бити експлицитно значени са out .
 
 */
 

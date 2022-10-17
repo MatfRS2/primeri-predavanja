@@ -7,7 +7,6 @@ Pristup zaštićenom elementu je ograničen na klasu koja sadrži taj elemenat i
 nju nasleđuju. 
 To znači da se u svakoj od klasa koja nasleđuje datu klasu može pristupiti zaštićenim 
 elementima date klase. 
-Ovaj modifikator pristupa daje najšire dopuštenje u poređenju sa ostalim novpima pristupa.
 
  */
 using System;
