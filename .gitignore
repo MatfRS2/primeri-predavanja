@@ -29305,3 +29305,7 @@ docker/_geting_started/08-multy-container/app/node_modules/minimist/test/dash.js
 /src/02-database-interaction/03-ef-both-mysql-ms-sql/obj/Debug/netcoreapp3.1
 /src/02-database-interaction/02-ef-ms-sql-server/obj/Release/netcoreapp3.1
 /src/02-database-interaction/02-ef-ms-sql-server/obj/Debug/netcoreapp3.1
+/src/02-database-interaction/01-ef-mysql/bin/Debug/netcoreapp3.1
+/src/02-database-interaction/01-ef-mysql/obj
+/src/02-database-interaction/02-ef-ms-sql-server/obj
+/src/02-database-interaction/03-ef-both-mysql-ms-sql/obj
