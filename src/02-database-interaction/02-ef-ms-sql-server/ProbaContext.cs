@@ -11,7 +11,7 @@ namespace HelloConsoleEF
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseSqlServer("Server=FILIPOVIC07\\TEACHING;Initial Catalog=MatfRs2.Predavanja.Skole01;Integrated Security=false;User id=rs2User;Password=rs2123$;");
+      optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Users\\Administrator\\Skole2019.Data.mdf;Integrated Security=True;Connect Timeout=30");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

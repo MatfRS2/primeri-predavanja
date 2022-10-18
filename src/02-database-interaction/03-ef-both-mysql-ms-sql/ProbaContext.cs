@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using MySql.Data.EntityFrameworkCore.Extensions;
+using MySql.EntityFrameworkCore.Extensions;
 
 namespace HelloConsoleEF
 {
@@ -11,8 +11,8 @@ namespace HelloConsoleEF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseMySQL("server=localhost;port=3307;database=bl_2019_07_skole;user=root;password=");
-            optionsBuilder.UseSqlServer("Server=FILIPOVIC07\\TEACHING;Initial Catalog=MatfRs2.Predavanja.Skole01;Integrated Security=false;User id=rs2User;Password=rs2123$;");
+            optionsBuilder.UseMySQL("server=localhost;port=3306;database=skole-2019;user=root;password=m_Mysql");
+            //optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Users\\Administrator\\Skole2019.Data.mdf;Integrated Security=True;Connect Timeout=30");
 
         }
 
