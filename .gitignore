@@ -29314,3 +29314,17 @@ docker/_geting_started/08-multy-container/app/node_modules/minimist/test/dash.js
 /src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/netcoreapp3.1
 /src/02-database-interaction/02-ef-ms-sql-server/bin/Debug/net6.0
 /src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net6.0
+/src/01-language/14-nullable/01-simple-nullable/bin/Debug/net6.0
+/src/01-language/14-nullable/01-simple-nullable/obj
+/src/01-language/15-records/01-simple-records/bin/Debug/net6.0
+/src/01-language/15-records/01-simple-records/obj
+/src/01-language/15-records/02-positional-records/bin/Debug/net6.0
+/src/01-language/15-records/02-positional-records/obj
+/src/01-language/15-records/03-positional-records-short/bin/Debug/net6.0
+/src/01-language/15-records/03-positional-records-short/obj
+/src/01-language/15-records/04-records-inheritance/bin/Debug/net6.0
+/src/01-language/15-records/04-records-inheritance/obj
+/src/01-language/16-linq/01-simple-linq/bin/Debug/net6.0
+/src/01-language/16-linq/01-simple-linq/obj
+/src/01-language/16-linq/02-linq-samples/bin/Debug/net6.0
+/src/01-language/16-linq/02-linq-samples/obj
