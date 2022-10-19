@@ -21,6 +21,12 @@
         {
             System.Console.WriteLine("IPovrs.Iscrtaj");
         }
+
+        internal void Iscrtaj()
+        {
+            System.Console.WriteLine("NekaKlasa.Iscrtaj");
+        }
+
     }
 
     public class Program
@@ -31,8 +37,10 @@
             IKontrola control = sample;
             IPovrs surface = sample;
 
+            sample.Iscrtaj();
             control.Iscrtaj();
             surface.Iscrtaj();
+            
         }
     }
 }

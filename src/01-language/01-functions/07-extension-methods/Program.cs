@@ -1,19 +1,4 @@
-﻿/*
-
-Metodi proširenja
-
-Metodi proširenja omogućuju da se dodtni metodi pridruže postojećem tipu bez
-kreiranja novog izvednog tipa, rekompilaciji i bez bilo kakvog mpdifikovanja
-originalnog tipa.
-To su statički metodi, ali takvi da se pozivaju kao da su metodi primerka tipa 
-koji se proširuje.
-Klijentski kod poziva metode proširenja na potpuno isti način kao što se 
-pozivaju metodi primerka definisani u datom tipu.
-
-*/
-
-
-using System;
+﻿using System;
 
 namespace RS2.Funkcije.MetodiProsirenja;
 

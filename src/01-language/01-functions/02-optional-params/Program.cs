@@ -1,33 +1,4 @@
-﻿/*
-
-Opcioni parametri
-
-U definicиji funkcije tj. metoda (kao i konstruktora, indeksera ili delegata) se 
-njegovi parametri mogu specificrati kao obavezni ili kao opcioni. 
-Poziv funkcije mora obezbediti sve obavezne parametre, ali opcioni prametri 
-mogu da  ne budu specificirani - tada se u supstituciji koristi njihova 
-podrazumevana vrednost.
-Naime, svaki opcioni parametar ima podrazimevanu vrednost u okviru svoje
-definicije, pa ako vrednost argumenta za taj parametar nije specificirana u
-pozivu, koristiće se ta podrazumevana vrednost. 
-Opcioni parametri su definisani na karju liste parametara, posle svih 
-obaveznih.
-Aкo se pri pozivu obezbeđuje vrednost za neki opcioni parmetar, potrebno je 
-obezbediti vrednosti za sve opcione parametre koji mu prethode.
-
-Imenovani argumenti
-
-Imenovani argumenti oslobađaju obaveze uklapanja redosleda argumenata pri 
-pozivu sa redosledom parametara u definiciji metoda. 
-Informacija na koji se parametar odnosi dati argument se može dati u pozivu
-metoda tako što se specificira ime parametra.
-Imenovani argumenti pobiljšavaju čitljivost programskog koda, tako što se 
-lakše identifikuje šta predstavlja koji argument.
-Kada se imenovani argumenti koriste zajedno sa pozicionim argumentima, tada
-pozicioni arumenti ne mogu da budu posle imenovanih, i oni moraju da budu na 
-svom mestu. 
-
-*/
+﻿
 
 using System;
 using System.Text;
@@ -77,11 +48,11 @@ namespace RS2.Funkcije.OpcionalniImenovaniParametri
             return graditelj.ToString();
         }
 
-        static public void Prikaz2(string ime = "Marko", int age = 20,
+        static public void Prikaz2(string ime = "Marko", int uzrast = 20,
             string prezime = "Marković")
         {
             Console.WriteLine("Puno ime: {0} {1}", ime, prezime);
-            Console.WriteLine("Uzrast:   {0}", age);
+            Console.WriteLine("Uzrast:   {0}", uzrast);
         }
 
         static void Main(string[] args)
