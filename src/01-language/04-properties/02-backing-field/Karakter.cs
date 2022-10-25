@@ -12,11 +12,8 @@ namespace RS2.PropertyBackingField
             this.ime = ime;
             this.prezime = prezime;
         }
-        public string Ime
-        {
-            get { return ime; }
-            set { ime = value; }
-        }
+
+        public string Ime { get => ime; set => ime = value; }
 
         public string Prezime
         {
@@ -48,6 +45,7 @@ namespace RS2.PropertyBackingField
                 }
             }
         }
+
 
     }
 }
