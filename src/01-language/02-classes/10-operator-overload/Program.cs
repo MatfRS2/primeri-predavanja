@@ -119,35 +119,35 @@ namespace RS2.OperatorOverload
     {
         static void Main(string[] args)
         {
-            Box Box1 = new Box();   // Declare Box1 of type Box
+            Box box1 = new Box();   // Declare Box1 of type Box
   
             // box 1 specification
-            Box1.setLength(6.0);
-            Box1.setBreadth(7.0);
-            Box1.setHeight(5.0);
+            box1.setLength(6.0);
+            box1.setBreadth(7.0);
+            box1.setHeight(5.0);
 
-            Box Box2 = new Box();   // Declare Box2 of type Box
+            Box box2 = new Box();   // Declare Box2 of type Box
                                     
             // box 2 specification
-            Box2.setLength(12.0);
-            Box2.setBreadth(13.0);
-            Box2.setHeight(10.0);
+            box2.setLength(12.0);
+            box2.setBreadth(13.0);
+            box2.setHeight(10.0);
 
             //displaying the Boxes using the overloaded ToString():
-            Console.WriteLine("Box 1: {0}", Box1.ToString());
-            Console.WriteLine("Box 2: {0}", Box2.ToString());
+            Console.WriteLine("Box 1: {0}", box1.ToString());
+            Console.WriteLine("Box 2: {0}", box2.ToString());
 
             double volume = 0.0;    // Store the volume of a box here
                                     // volume of box 1
-            volume = Box1.getVolume();
+            volume = box1.getVolume();
             Console.WriteLine("Volume of Box1 : {0}", volume);
 
             // volume of box 2
-            volume = Box2.getVolume();
+            volume = box2.getVolume();
             Console.WriteLine("Volume of Box2 : {0}", volume);
 
             // Add two object as follows:
-            Box Box3 = Box1 + Box2;
+            Box Box3 = box1 + box2;
             Console.WriteLine("Box 3: {0}", Box3.ToString());
 
             // volume of box 3
@@ -155,27 +155,27 @@ namespace RS2.OperatorOverload
             Console.WriteLine("Volume of Box3 : {0}", volume);
 
             //comparing the boxes
-            if (Box1 > Box2)
+            if (box1 > box2)
                 Console.WriteLine("Box1 is greater than Box2");
             else
                 Console.WriteLine("Box1 is not greater than Box2");
 
-            if (Box1 < Box2)
+            if (box1 < box2)
                 Console.WriteLine("Box1 is less than Box2");
             else
                 Console.WriteLine("Box1 is not less than Box2");
 
-            if (Box1 >= Box2)
+            if (box1 >= box2)
                 Console.WriteLine("Box1 is greater or equal to Box2");
             else
                 Console.WriteLine("Box1 is not greater or equal to Box2");
 
-            if (Box1 <= Box2)
+            if (box1 <= box2)
                 Console.WriteLine("Box1 is less or equal to Box2");
             else
                 Console.WriteLine("Box1 is not less or equal to Box2");
 
-            if (Box1 != Box2)
+            if (box1 != box2)
                 Console.WriteLine("Box1 is not equal to Box2");
             else
                 Console.WriteLine("Box1 is not greater or equal to Box2");
@@ -185,8 +185,6 @@ namespace RS2.OperatorOverload
                 Console.WriteLine("Box3 is equal to Box4");
             else
                 Console.WriteLine("Box3 is not equal to Box4");
-
-            Console.ReadKey();
         }
     }
 }

@@ -25,16 +25,6 @@ namespace RS2.MethodNewHide
     {
         public static void Main(string[] args)
         {
-
-            //obj = new Roditelj();
-            //obj.PrikaziSe();
-
-            //obj = new Potomak();
-            //obj.PrikaziSe();
-
-            //Potomak obj2 = new Potomak();
-            //obj2.PrikaziSe();
-
             Potomak obj2 = new Potomak();
             obj2.PrikaziSe();
 

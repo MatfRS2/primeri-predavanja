@@ -5,8 +5,4 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.7" />
-  </ItemGroup>
-
 </Project>

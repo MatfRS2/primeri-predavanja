@@ -46,7 +46,9 @@ namespace RS2.SimpleEnum
             Console.WriteLine("---");
 
             Boja b = Boja.Crvena;
+            Console.WriteLine(BojaProsirenje.Opis2(b));
             Console.WriteLine(b.Opis2());
+            
             Console.WriteLine(Boja.Zelena.Opis2());
         }
 

@@ -1,6 +1,5 @@
 ﻿namespace RS2.PropertyHiding
 {
-
     public class Zaposleni
     {
         private string imePrezime;

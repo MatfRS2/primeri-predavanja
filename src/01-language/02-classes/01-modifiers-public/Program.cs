@@ -1,18 +1,6 @@
 ﻿
 using System;
 
-/*
- 
-Sklopovi
-
-Nivo pristupa public 
-
-Pristup javnom elementu je dopušten iz svakog dela programa. 
-To znači da ma koji drugi metod ili mamkoji srugi sklop koji sadrži referencu na klasu
-može pristupiti elemtnu označenom sa public. 
-Ovaj modifikator pristupa daje najšire dopuštenje u poređenju sa ostalim novpima pristupa.
-
- */
 using RS2.Klase.ElementiPublic;
 
 namespace RS2.Klase.KoriscenjeElementiPublic;
