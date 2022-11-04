@@ -36,6 +36,7 @@ namespace RS2.MulticastDelegates
         {
             del("Hello World");
         }
+
         static void Main(string[] args)
         {
             MojDelegat del1 = KlasaA.MetodA;
