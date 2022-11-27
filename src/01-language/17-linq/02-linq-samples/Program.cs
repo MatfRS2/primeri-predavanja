@@ -62,9 +62,9 @@ Console.WriteLine("---");
 
 // LINQ that returns collection of anonymous objects (method sintax)
 Console.WriteLine("LINQ that returns collection of anonymous objects (method sintax)");
-teenStudentsName2 = studentList.Where(s => s.Age > 12 && s.Age < 20)
-    .Select(s => new { ImeStudenta = s.StudentName + "3" });
-teenStudentsName2.ToList().ForEach(s => Console.WriteLine(s.ImeStudenta));
+var teenStudentsName3 = studentList.Where(s => s.Age > 12 && s.Age < 20)
+    .Select(s => new {StudentId = s.StudentId,  ImeStudenta = s.StudentName + "3" });
+teenStudentsName3.ToList().ForEach(s => Console.WriteLine(s.StudentId + " "  + s.ImeStudenta));
 Console.WriteLine("---");
 
 // LINQ group by (query sintax)

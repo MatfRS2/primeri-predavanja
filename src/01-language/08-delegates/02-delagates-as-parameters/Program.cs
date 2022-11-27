@@ -42,8 +42,7 @@ namespace RS2.DelegatesAsParameters
             NoviDelegat del = KlasaA.MetodA;
             PozoviDelegat(del, "Zagor");
 
-            del = KlasaB.MetodB;
-            PozoviDelegat(del, "Veliki Blek");
+            PozoviDelegat(KlasaB.MetodB, "Veliki Blek");
         }
      }
 }

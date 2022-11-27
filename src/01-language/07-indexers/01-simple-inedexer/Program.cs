@@ -13,15 +13,17 @@ namespace RS2.SimpleIndexer
             elementi[1] = "Dva";
             elementi[2] = "Tri";
             elementi[3] = "Cetiri";
-            for (int i = 0; i < elementi.Dimenzija; i++)
-                Console.WriteLine(elementi[i]);
-            Console.WriteLine("---");
-            
+            Prikazi(elementi);
+
             elementi.Dimenzija = 15;
             elementi[-17] = "Osam";
+            Prikazi(elementi);
+        }
+
+        private static void Prikazi(Niske elementi)
+        {
             for (int i = 0; i < elementi.Dimenzija; i++)
                 Console.WriteLine(elementi[i]);
-            Console.WriteLine();
             Console.WriteLine("---");
         }
     }

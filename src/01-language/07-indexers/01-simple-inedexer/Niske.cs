@@ -7,9 +7,8 @@ namespace RS2.SimpleIndexer
     {
         private string[] skladiste;
 
-        public Niske()
+        public Niske(): this(10)
         {
-            skladiste = new string[10];
         }
 
         public Niske(int dimenzija)
