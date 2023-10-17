@@ -6,8 +6,8 @@ class Program
 {
     static int SaberiDupliraneVrednosti(in int x, in int y)
     {
-        // x += y;
-        // return 2 * x;
+        //x += y;
+        //return 2 * x;
         return 2 * (x + y);
     }
 

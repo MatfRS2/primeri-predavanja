@@ -51,7 +51,7 @@ namespace RS2.Funkcije.OpcionalniImenovaniParametri
         static public void Prikaz2(string ime = "Marko", int uzrast = 20,
             string prezime = "Marković")
         {
-            Console.WriteLine("Puno ime: {0} {1}", ime, prezime);
+            Console.WriteLine("Puno ime: {0}+{1}", ime, prezime);
             Console.WriteLine("Uzrast:   {0}", uzrast);
         }
 

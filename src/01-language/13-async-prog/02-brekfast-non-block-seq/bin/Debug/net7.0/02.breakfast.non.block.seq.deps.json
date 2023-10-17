@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "02.breakfast.non.block.seq/1.0.0": {
+        "runtime": {
+          "02.breakfast.non.block.seq.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "02.breakfast.non.block.seq/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

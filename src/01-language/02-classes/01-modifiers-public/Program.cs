@@ -3,25 +3,28 @@ using System;
 
 using RS2.Klase.ElementiPublic;
 
-namespace RS2.Klase.KoriscenjeElementiPublic;
-
-class Program
+namespace RS2.Klase.KoriscenjeElementiPublic
 {
 
-    // Main Method 
-    static void Main(string[] args)
+    class Program
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        Student stud = new Student(1, "Митар Митровић");
+        // Main Method 
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        Console.WriteLine("Ознака:        {0}", stud.getBrojIndeksa());
-        Console.WriteLine("Име и презиме: {0}", stud.getImePrezime());
-        Console.WriteLine();
+            Student stud = new Student(1, "Митар Митровић");
 
-        //Console.WriteLine("Ознака:        {0}", stud.brojIndeksa);
-        //Console.WriteLine("Име и презиме: {0}", stud.imePrezime);
+            Console.WriteLine("Ознака:        {0}", stud.getBrojIndeksa());
+            Console.WriteLine("Име и презиме: {0}", stud.getImePrezime());
+            Console.WriteLine();
+
+            //Console.WriteLine("Ознака:        {0}", stud.brojIndeksa);
+            //Console.WriteLine("Име и презиме: {0}", stud.imePrezime);
+        }
     }
+
 }
 
 /* Izlaz dobijen prilikom izvršavanja programa:

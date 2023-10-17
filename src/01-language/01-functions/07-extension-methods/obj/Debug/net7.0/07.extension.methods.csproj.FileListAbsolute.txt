@@ -1,0 +1,14 @@
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\bin\Debug\net7.0\07.extension.methods.exe
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\bin\Debug\net7.0\07.extension.methods.deps.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\bin\Debug\net7.0\07.extension.methods.runtimeconfig.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\bin\Debug\net7.0\07.extension.methods.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\bin\Debug\net7.0\07.extension.methods.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.AssemblyInfoInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.AssemblyInfo.cs
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.csproj.CoreCompileInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\refint\07.extension.methods.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\07.extension.methods.genruntimeconfig.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\07-extension-methods\obj\Debug\net7.0\ref\07.extension.methods.dll
