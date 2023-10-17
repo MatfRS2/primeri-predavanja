@@ -29337,3 +29337,5 @@ docker/_geting_started/08-multy-container/app/node_modules/minimist/test/dash.js
 /src/01-language/17-linq/01-simple-linq/obj
 /src/01-language/17-linq/02-linq-samples/bin/Debug/net6.0
 /src/01-language/17-linq/02-linq-samples/obj
+/src/01-language/01-functions/01-simple-case/bin/Debug/net7.0
+/src/01-language/01-functions/02-optional-params/bin/Debug/net7.0
