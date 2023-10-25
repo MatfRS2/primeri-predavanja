@@ -5,14 +5,14 @@ namespace RS2.SimpleIndexer
 {
     class Program
     {
-         static void Main()
+        static void Main()
         {
             Niske elementi = new Niske();
 
             elementi[0] = "Jedan";
             elementi[1] = "Dva";
             elementi[2] = "Tri";
-            elementi[3] = "Cetiri";
+            elementi[7] = "Cetiri";
             Prikazi(elementi);
 
             elementi.Dimenzija = 15;

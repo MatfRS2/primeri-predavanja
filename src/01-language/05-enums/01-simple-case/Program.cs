@@ -14,7 +14,7 @@ namespace RS2.SimpleEnum
     {
         public static string Opis2(this Boja boja)
         {
-            return String.Format("{0} = {1}", boja, (int)boja);
+            return String.Format("{0} ima internu vrednost {1}", boja, (int)boja);
         }
     }
 

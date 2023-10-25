@@ -16,6 +16,10 @@ namespace RS2.GenericDelegate
         {
             return str1 + str2;
         }
+        public static double SumSquared(double val1, double val2)
+        {
+            return val1*val1 + val2*val2;
+        }
 
         static void Main(string[] args)
         {
@@ -24,6 +28,9 @@ namespace RS2.GenericDelegate
 
             Dodaj<string> con = Concat;
             Console.WriteLine(con(con("Miki", " "), "Maus"));
+
+            Dodaj<double> sum2 = SumSquared;
+            Console.WriteLine(sum2(10, 20));
         }
 
      }

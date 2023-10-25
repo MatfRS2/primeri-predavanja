@@ -40,6 +40,7 @@ namespace RS2.SimpleDelegate
 
             del = KlasaB.MetodaB;
             del("Zdravo svete");
+            del("Zagor");
         }
     }
 }
