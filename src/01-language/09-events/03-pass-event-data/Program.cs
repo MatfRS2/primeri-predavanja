@@ -37,10 +37,14 @@ namespace RS2.PassEventData
                 // some code here..
                 Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");
                 Thread.Sleep(500);
-                // potom se ispaljuje dogadjaj
+                // potom se ispaljujju dva dogadjaja
                 Console.WriteLine("BL: Ispali dogadjaj!");
                 data.IsSuccessful = true;
                 data.CompletionTime = DateTime.Now.AddMinutes(5);
+                FireProcessCompleted(data);
+                Console.WriteLine("BL: Ispali dogadjaj!");
+                data.IsSuccessful = false;
+                data.CompletionTime = DateTime.Now.AddSeconds(-5);
                 FireProcessCompleted(data);
                 // some code here..
                 Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");
@@ -63,6 +67,15 @@ namespace RS2.PassEventData
         }
     }
 
+    class Slusalac2
+    {
+        public static void reakcija(object sender, ProcessEventArgs e)
+        {
+            Console.WriteLine( "R>" + e.IsSuccessful + " " + e.CompletionTime);
+        }
+
+    }
+
     class Program
     {
         public static void Main()
@@ -70,6 +83,7 @@ namespace RS2.PassEventData
             BusinessLogic bl = new BusinessLogic();
             // registruj rukovaoca za dogadjaj
             bl.ProcessCompleted += onProcessCompleted;
+            bl.ProcessCompleted += Slusalac2.reakcija;
 
             bl.StartProcess();
         }

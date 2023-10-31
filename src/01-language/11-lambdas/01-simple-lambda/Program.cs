@@ -77,7 +77,7 @@ namespace RS2.SimpleLambda
                 new Student("Mitar Miric", 19),
                 new Student("Dragana Mirkovic", 15)
             };
-            foreach( Student s in studenti)
+            foreach (Student s in studenti)
             {
                 if (upitTeen(s))
                     Console.WriteLine("Student {0}, godina {1}", s.Name, s.Age);

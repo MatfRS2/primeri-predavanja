@@ -10,6 +10,7 @@ complex data structure.
 
 
 using System;
+using System.Threading;
 
 namespace RS2.StructuresEvents
 {
@@ -87,6 +88,7 @@ namespace RS2.StructuresEvents
             Console.WriteLine(point.x);
             Console.WriteLine(point.y);
             Console.WriteLine("---");
+            Thread.Sleep(500);
         }
 
     }

@@ -15,8 +15,8 @@ namespace RS2.SimpleStructure
 {
     struct Coordinate
     {
-        public int x;
-        public int y;
+        internal int x;
+        internal int y;
     }
 
     class Program

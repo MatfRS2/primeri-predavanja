@@ -49,7 +49,8 @@ namespace RS2.EventHandlerSample
         {
             BusinessLogic bl = new BusinessLogic();
             // registruj rukovaoca za dogadjaj
-            bl.ProcesOkoncan += onProcessCompleted; 
+            bl.ProcesOkoncan += onProcessCompleted;
+            bl.ProcesOkoncan += kadSeZavrsiProces;
 
             bl.StartProcess();
         }
@@ -58,6 +59,11 @@ namespace RS2.EventHandlerSample
         public static void onProcessCompleted(object sender, EventArgs e)
         {
             Console.WriteLine("EH: Process Completed!");
+        }
+
+        public static void kadSeZavrsiProces(object sender, EventArgs e)
+        {
+            Console.WriteLine("Proces Zavrsen!");
         }
     }
 
