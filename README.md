@@ -1,1 +1,1 @@
-# primeri-predavanja-2021-22
+# RS2 - primeri predavanja
