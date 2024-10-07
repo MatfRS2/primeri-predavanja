@@ -17,7 +17,7 @@ public static class Prosirenje
         return ret;
     }
 
-    public static string Nalepi(this string s, int brojPonavljanja)
+    public static string Nalepi(this string s, int brojPonavljanja=2)
     {
         if (brojPonavljanja <= 1)
             return s;

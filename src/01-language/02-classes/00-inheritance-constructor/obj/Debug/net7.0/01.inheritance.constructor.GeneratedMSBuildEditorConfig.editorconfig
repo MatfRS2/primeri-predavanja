@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = 01.inheritance.constructor
 build_property.ProjectDir = C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\02-classes\00-inheritance-constructor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

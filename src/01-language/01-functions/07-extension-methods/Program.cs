@@ -26,7 +26,7 @@ class Program
 
         z = "123 Мики Маус 123".BrojSlova();
         Console.WriteLine(z);
-        Console.WriteLine("Паја Патак ...".Nalepi(2));
+        Console.WriteLine("Паја Патак ...".Nalepi());
         Console.WriteLine("Шиља - ".Nalepi(4));
     }
 

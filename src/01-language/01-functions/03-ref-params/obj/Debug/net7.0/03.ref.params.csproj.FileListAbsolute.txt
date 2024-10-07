@@ -12,3 +12,4 @@ C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions
 C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\03-ref-params\obj\Debug\net7.0\03.ref.params.pdb
 C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\03-ref-params\obj\Debug\net7.0\03.ref.params.genruntimeconfig.cache
 C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\03-ref-params\obj\Debug\net7.0\ref\03.ref.params.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\01-language\01-functions\03-ref-params\obj\Debug\net7.0\03.ref.params.sourcelink.json
