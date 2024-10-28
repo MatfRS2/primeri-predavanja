@@ -245,6 +245,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.usage.of.attributes", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.custom.attribute", "01-language\16-attributes\02-custom-attribute\02.custom.attribute.csproj", "{5E11A380-473A-4291-B2F6-628B479C339D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.sun.cat.owl", "04.sun.cat.owl\04.sun.cat.owl.csproj", "{005D4723-468C-4BCD-995E-3C63174F5623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -623,6 +625,10 @@ Global
 		{5E11A380-473A-4291-B2F6-628B479C339D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E11A380-473A-4291-B2F6-628B479C339D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E11A380-473A-4291-B2F6-628B479C339D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005D4723-468C-4BCD-995E-3C63174F5623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005D4723-468C-4BCD-995E-3C63174F5623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005D4723-468C-4BCD-995E-3C63174F5623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005D4723-468C-4BCD-995E-3C63174F5623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -747,6 +753,7 @@ Global
 		{620EC9FE-9663-4A9D-94E1-4C03494839B3} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
 		{7CF20FD7-446D-4DE5-8380-EA29D338D966} = {620EC9FE-9663-4A9D-94E1-4C03494839B3}
 		{5E11A380-473A-4291-B2F6-628B479C339D} = {620EC9FE-9663-4A9D-94E1-4C03494839B3}
+		{005D4723-468C-4BCD-995E-3C63174F5623} = {9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}

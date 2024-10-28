@@ -3,7 +3,7 @@ using System;
 
 namespace RS2.SimpleIndexer
 {
-    class Niske
+    public class Niske
     {
         private string[] skladiste;
 

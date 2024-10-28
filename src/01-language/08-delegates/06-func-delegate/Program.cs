@@ -27,6 +27,11 @@ namespace RS2.FuncDelegate
             return (int)(x + y + z);
         }
 
+        static double Avg5(double x, double y, double z, double u, double v)
+        {
+            return (x+ y + z+ u +v)/5;
+        }
+
         static void Main(string[] args)
         {
             Func<int, int, long> add2 = Sum2;
@@ -37,6 +42,11 @@ namespace RS2.FuncDelegate
             Func<double, double, double, int> add3 = Sum3;
             result = add3(10.5, 10, 10.48);
             Console.WriteLine(result);
+            Console.WriteLine("---");
+
+            Func<double, double, double, double, double, double> avg5 = Avg5;
+            double result1 = avg5(10.5, 10.5, 10.48, 1, 1.5);
+            Console.WriteLine(result1);
             Console.WriteLine("---");
         }
     }

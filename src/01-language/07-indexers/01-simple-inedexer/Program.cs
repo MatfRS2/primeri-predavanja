@@ -1,6 +1,7 @@
 ﻿
 using System;
 
+
 namespace RS2.SimpleIndexer
 {
     class Program
@@ -13,19 +14,13 @@ namespace RS2.SimpleIndexer
             elementi[1] = "Dva";
             elementi[2] = "Tri";
             elementi[7] = "Cetiri";
-            Prikazi(elementi);
+            elementi.Prikazi();
 
             elementi.Dimenzija = 15;
             elementi[-17] = "Osam";
-            Prikazi(elementi);
+            elementi.Prikazi();
         }
 
-        private static void Prikazi(Niske elementi)
-        {
-            for (int i = 0; i < elementi.Dimenzija; i++)
-                Console.WriteLine(elementi[i]);
-            Console.WriteLine("---");
-        }
     }
 }
 

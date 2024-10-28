@@ -35,7 +35,7 @@ namespace RS2.SimpleEvent
         {
             Console.WriteLine("PL> Metod je pokrenut!");
             // some code here..
-            Console.WriteLine("PL> Simulacija izvrsvanja programskog koda!");
+            Console.WriteLine("PL> Simulacija izvrsavanja programskog koda!");
             Thread.Sleep(500);
             // potom se ispaljuje dogadjaj
             Console.WriteLine("PL> Ispali dogadjaj!");
