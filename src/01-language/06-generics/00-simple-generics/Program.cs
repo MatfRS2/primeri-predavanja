@@ -36,12 +36,14 @@ namespace RS2.SimpleGeneric
             gradovi.DodajIliAzuriraj(1, "Cikago");
             gradovi.DodajIliAzuriraj(2, "London");
             gradovi.DodajIliAzuriraj(7, "Beograd");
+            gradovi.DodajIliAzuriraj(1, "Podgorica");
             gradovi.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             SkladistePodataka<int> identifikatori = new SkladistePodataka<int>();
             identifikatori.DodajIliAzuriraj(0, 50);
             identifikatori.DodajIliAzuriraj(1, 65);
+            identifikatori.DodajIliAzuriraj(15, 25);
             identifikatori.DodajIliAzuriraj(2, 89);
             identifikatori.PrikaziNaKonzoli();
             Console.WriteLine();
