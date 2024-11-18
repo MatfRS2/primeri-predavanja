@@ -46,7 +46,7 @@ namespace RS2.SimpleLinq
 
     static class StudentExtension
     {
-        public static Student[] Uslov1(this Student[] stdArray, FindStudent del)
+        public static Student[] Filtriraj1(this Student[] stdArray, FindStudent del)
         {
             int i = 0;
             Student[] result = new Student[10];
@@ -61,7 +61,7 @@ namespace RS2.SimpleLinq
         }
 
 
-        public static Student[] Uslov2(this Student[] stdArray, Predicate<Student> predikat)
+        public static Student[] Filtriraj2(this Student[] stdArray, Predicate<Student> predikat)
         {
             int i = 0;
             Student[] result = new Student[10];
@@ -96,34 +96,35 @@ namespace RS2.SimpleLinq
             };
 
             // Use extension function and anonimous delegate to find students within age interval
-            Student[] students = sviStudenti.Uslov1(delegate (Student std)
-            {
-                return std.Age > 12 && std.Age < 20;
-            });
-            students.PrikaziNaKonzoli();
+            Student[] studentiTinejdzeri = sviStudenti.Filtriraj1(
+                                                        delegate (Student std)
+                                                        {
+                                                            return std.Age > 12 && std.Age < 20;
+                                                        });
+            studentiTinejdzeri.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use extension function and anonimous delegate to find first student whose StudentId is 5
-            students = sviStudenti.Uslov1(delegate (Student std)
-            {
-                return std.StudentId == 5;
-            });
-            students.PrikaziNaKonzoli();
+            Student[] studentiId5 = sviStudenti.Filtriraj1(delegate (Student std)
+                                                        {
+                                                            return std.StudentId == 5;
+                                                        });
+            studentiId5.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use extension function and lambda expession delegate to find first student whose name is Bill 
-            students = sviStudenti.Uslov1(std => std.StudentName == "Bill");
-            students.PrikaziNaKonzoli();
+            Student[] studentiBill = sviStudenti.Filtriraj1(std => std.StudentName == "Bill");
+            studentiBill.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use extension function and lambda expression predicate to find students within age interval
-            students = sviStudenti.Uslov2(std => std.Age > 12 && std.Age < 20);
-            students.PrikaziNaKonzoli();
+            studentiTinejdzeri = sviStudenti.Filtriraj2(std => std.Age > 12 && std.Age < 20);
+            studentiTinejdzeri.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use LINQ (method syntax) to find students within age interval  
-            students = sviStudenti.Where(s => s.Age > 12 && s.Age < 20).ToArray();
-            students.PrikaziNaKonzoli();
+            studentiTinejdzeri = sviStudenti.Where(s => s.Age > 12 && s.Age < 20).ToArray();
+            studentiTinejdzeri.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use LINQ (query syntax) to find students within age interval  

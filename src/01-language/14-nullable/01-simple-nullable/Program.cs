@@ -47,7 +47,7 @@ bool? boolval = new bool?();
 Console.WriteLine("A Nullable boolean value: {0}", boolval);
 
 num1 = null;
-num3 = num1 ?? 5.34;
+num3 = num1 ?? num2 ?? 5.34;
 //num3 = num1.HasValue ? num1.Value : 5.34;
 Console.WriteLine(" Value of num3: {0}", num3);
 

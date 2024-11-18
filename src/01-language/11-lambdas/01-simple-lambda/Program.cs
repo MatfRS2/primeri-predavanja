@@ -48,13 +48,14 @@ namespace RS2.SimpleLambda
         static void Main(string[] args)
         {
             // akcija preko lambde
-            Action linija = () => Console.WriteLine();
+            var linija = () => Console.WriteLine();
 
             // jos jedna akcija preko lambde
             Action<string> upisiPaLinija = x => Console.WriteLine(x);
 
             // funkcija preko lambda izraza
-            Func<int, int> square = x => x * x;
+            var square = (int x) => x * x;
+
             upisiPaLinija(square(5).ToString());
             linija();
 

@@ -2,8 +2,8 @@ namespace RS2.LambdaExpressionInInterface
 {
     public class Artikal
     {
-        string name;
-        decimal cost;
+        private string name;
+        private decimal cost;
 
         public Artikal(string name, decimal cost)
         {

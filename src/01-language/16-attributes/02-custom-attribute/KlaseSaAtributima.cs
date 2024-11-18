@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace RS2.Atributi;
 
 // Class with the Author attribute.  
+[Serializable]
 [Author("P. Ackerman")]
 public class FirstClass
 {

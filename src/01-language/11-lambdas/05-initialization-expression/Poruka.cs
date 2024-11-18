@@ -4,9 +4,11 @@ namespace RS2.InitializationExpression
 {
     internal class Poruka
     {
+        byte bp = 7;
+
         public byte BrojPonavljanja{
-            get;
-            set;
+            get => bp;
+            set => bp = value;
         }
         
         public string Sadrzaj {
