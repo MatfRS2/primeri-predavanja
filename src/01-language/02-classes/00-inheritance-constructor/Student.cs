@@ -2,7 +2,7 @@
 
 class Student : Covek
 {
-    int brojIndeksa;
+    readonly int brojIndeksa;
 
     // Konstruktor 
     public Student(int bi, string ip) : base(ip)

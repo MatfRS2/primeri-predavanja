@@ -2,7 +2,7 @@
 
 class Covek
 {
-    string imePrezime;
+    readonly string imePrezime;
 
     public Covek(string ip)
     {
