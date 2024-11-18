@@ -29546,3 +29546,9 @@ src/01-language/03-interfaces/02-implements-explicit/bin/Debug/net7.0/02.iplemen
 /src/01-language/02-classes/01-modifiers-public/bin/Debug/net7.0/00.modifiers.public.dll
 /src/01-language/02-classes/01-modifiers-public/bin/Debug/net7.0/00.modifiers.public.exe
 /src/01-language/02-classes/01-modifiers-public/bin/Debug/net7.0/00.modifiers.public.pdb
+src/.vs/03-clean-architecture-ardalis/DesignTimeBuild/.dtbcache.v2
+src/.vs/ProjectEvaluation/03-clean-architecture-ardalis.metadata.v7.bin
+src/.vs/ProjectEvaluation/03-clean-architecture-ardalis.projects.v7.bin
+*.dll
+*.pdb
+*.exe
