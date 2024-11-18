@@ -5,4 +5,8 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\01-simple-delegate\01.simple.delegate.csproj" />
+  </ItemGroup>
+
 </Project>

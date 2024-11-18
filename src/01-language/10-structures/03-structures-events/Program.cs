@@ -44,6 +44,7 @@ namespace RS2.StructuresEvents
                 CoordinatesChanged(new CoordinatesChangedEventArgs(Dimension.X, _x));
             }
         }
+
         public int y
         {
             get { return _y; }

@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Xml.Linq;
 
 namespace RS2.IndexerOverload
 {
@@ -53,6 +54,12 @@ namespace RS2.IndexerOverload
         public int Dimenzija
         {
             get { return skladiste.Length; }
+        }
+
+        public void Prikazi()
+        {
+            for (int i = 0; i < Dimenzija; i++)
+                Console.WriteLine(this[i]);
         }
     }
 }

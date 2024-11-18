@@ -39,8 +39,8 @@ namespace RS2.SimpleStructure
             //Console.Write(point2.x);   
 
             point2.x = 10;
+            Console.WriteLine(point2.x);
             point2.y = 20;
-            Console.WriteLine(point2.x);   
             Console.WriteLine(point2.y);
             Console.WriteLine("---");
         }

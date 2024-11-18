@@ -1,6 +1,7 @@
 ﻿/*
 
- A tuple is a data structure that contains a sequence of elements of different data types. It can be used where you want to have 
+ A tuple is a data structure that contains a sequence of elements of different data types. 
+It can be used where you want to have 
 a data structure to hold an object with properties, but you don't want to create a separate type for it.omplex data structure. 
 
 */
