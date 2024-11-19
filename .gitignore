@@ -29816,3 +29816,8 @@ src/01-language/01-functions/07-extension-methods/obj/Debug/net7.0/.NETCoreApp,V
 src/01-language/01-functions/07-extension-methods/obj/Debug/net7.0/07.extension.methods.csproj.BuildWithSkipAnalyzers
 bin
 obj
+/src/03-clean-architecture-ardalis/02-source-included/.vs/02-source-included/v17/TestStore/0/000.testlog
+/src/03-clean-architecture-ardalis/02-source-included/.vs/02-source-included/v17/TestStore/0/testlog.manifest
+/src/03-clean-architecture-ardalis/02-source-included/.vs/Project/v17/.suo
+/src/03-clean-architecture-ardalis/02-source-included/.vs/Project/v17/TestStore/0/000.testlog
+/src/03-clean-architecture-ardalis/02-source-included/.vs/Project/v17/TestStore/0/testlog.manifest
