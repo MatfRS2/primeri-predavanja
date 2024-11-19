@@ -29814,3 +29814,5 @@ src/01-language/01-functions/07-extension-methods/bin/Debug/net7.0/07.extension.
 src/01-language/01-functions/07-extension-methods/bin/Debug/net7.0/07.extension.methods.runtimeconfig.json
 src/01-language/01-functions/07-extension-methods/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 src/01-language/01-functions/07-extension-methods/obj/Debug/net7.0/07.extension.methods.csproj.BuildWithSkipAnalyzers
+bin
+obj
