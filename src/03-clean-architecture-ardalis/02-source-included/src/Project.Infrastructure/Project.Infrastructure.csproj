@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ardalis.SharedKernel" />
     <PackageReference Include="Ardalis.Specification.EntityFrameworkCore" />
     <PackageReference Include="Autofac" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" />
@@ -19,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\common\Ardalis.SharedKernel\src\Ardalis.SharedKernel\Ardalis.SharedKernel.csproj" />
     <ProjectReference Include="..\Project.Core\Project.Core.csproj" />
     <ProjectReference Include="..\Project.UseCases\Project.UseCases.csproj" />
   </ItemGroup>
