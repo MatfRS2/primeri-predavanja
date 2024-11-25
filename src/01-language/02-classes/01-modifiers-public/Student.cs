@@ -3,20 +3,20 @@
 class Student
 {
     // Polja brojIndeksa i imePrezime su privatna
-    int brojIdneksa;
-    string imePrezime;
+    readonly int brojIndeksa;
+    readonly string imePrezime;
 
     // Konstruktor 
     public Student(int bi, string ip)
     {
-        brojIdneksa = bi;
+        brojIndeksa = bi;
         imePrezime = ip;
     }
 
     // Metodi getBrojIndeksa i getImePrezime su javni
     public int getBrojIndeksa()
     {
-        return brojIdneksa;
+        return brojIndeksa;
     }
 
     public string getImePrezime()

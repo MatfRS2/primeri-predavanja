@@ -1,0 +1,13 @@
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\bin\Debug\net7.0\01-from-template.Core.deps.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\bin\Debug\net7.0\01-from-template.Core.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\bin\Debug\net7.0\01-from-template.Core.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.csproj.AssemblyReference.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.AssemblyInfoInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.AssemblyInfo.cs
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.csproj.CoreCompileInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.sourcelink.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\refint\01-from-template.Core.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\01-from-template.Core.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja\src\03-clean-architecture-ardalis\01-from-template\src\01-from-template.Core\obj\Debug\net7.0\ref\01-from-template.Core.dll

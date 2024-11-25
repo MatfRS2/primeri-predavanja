@@ -35,6 +35,7 @@ namespace RS2.OperatorOverload
             box.height = b.height + c.height;
             return box;
         }
+
         public static bool operator ==(Box lhs, Box rhs)
         {
             if (lhs.length == rhs.length && lhs.height == rhs.height
@@ -147,11 +148,11 @@ namespace RS2.OperatorOverload
             Console.WriteLine("Volume of Box2 : {0}", volume);
 
             // Add two object as follows:
-            Box Box3 = box1 + box2;
-            Console.WriteLine("Box 3: {0}", Box3.ToString());
+            Box box3 = box1 + box2;
+            Console.WriteLine("Box 3: {0}", box3.ToString());
 
             // volume of box 3
-            volume = Box3.getVolume();
+            volume = box3.getVolume();
             Console.WriteLine("Volume of Box3 : {0}", volume);
 
             //comparing the boxes
@@ -179,9 +180,9 @@ namespace RS2.OperatorOverload
                 Console.WriteLine("Box1 is not equal to Box2");
             else
                 Console.WriteLine("Box1 is not greater or equal to Box2");
-            Box Box4 = Box3;
+            Box box4 = box3;
 
-            if (Box3 == Box4)
+            if (box3 == box4)
                 Console.WriteLine("Box3 is equal to Box4");
             else
                 Console.WriteLine("Box3 is not equal to Box4");

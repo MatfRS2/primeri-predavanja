@@ -24,7 +24,7 @@ class Program
         Console.WriteLine(Prosirenje.Nalepi("Паја Патак ", 2));
         Console.WriteLine(Prosirenje.Nalepi("Шиља ", 4));
 
-        z = "123 Мики Маус 123".BrojSlova();
+        z = "123 Mickey Mouse 123".BrojSlova();
         Console.WriteLine(z);
         Console.WriteLine("Паја Патак ...".Nalepi());
         Console.WriteLine("Шиља - ".Nalepi(4));

@@ -15,7 +15,7 @@ namespace RS2.MethodOverride
     // izvedena klasa 
     public class Potomak : Roditelj
     {
-        // virtual method 
+        // overrided method 
         public override void PrikaziSe()
         {
             Console.WriteLine("Ja sam primerak klase Potomak.");
