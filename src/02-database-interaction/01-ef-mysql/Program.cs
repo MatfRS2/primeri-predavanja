@@ -101,8 +101,10 @@ namespace HelloConsoleEF
         {
             using (var context = new ProbaContext())
             {
-                var listaGradId = context.Grad.Where(x => x.Naziv.Equals(imeGrada))
-                .Select(x => x.Id).ToList();
+                var listaGradId = context.Grad
+                    .Where(x => x.Naziv.Equals(imeGrada))
+                    .Select(x => x.Id)
+                    .ToList();
                 if (listaGradId.Count <= 0)
                 {
                     Console.WriteLine("Ovog grada nema u bazi!");
@@ -110,14 +112,16 @@ namespace HelloConsoleEF
                 }
                 int gradId = listaGradId[0];
 
-                var skole = context.Skola.Where(x => x.GradId == gradId)
-                .Include(x => x.Grad);
+                var skole = context.Skola
+                    .Where(x => x.GradId == gradId)
+                    .Include(x => x.Grad);
 
                 var data = new StringBuilder();
                 foreach (var s in skole)
                 {
                     data.AppendLine($"Naziv: {s.Naziv}");
                     data.AppendLine($"Adresa: {s.Adresa}");
+                    data.AppendLine($"Grad: {s.Grad.Naziv}");
                 }
                 Console.WriteLine(data.ToString());
             }
