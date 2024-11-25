@@ -30147,3 +30147,12 @@ src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTe
 src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTests/obj/Debug/net7.0/01-from-template.UnitTests.sourcelink.json
 src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTests/obj/project.assets.json
 src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTests/obj/project.nuget.cache
+/src/03-clean-architecture-ardalis/01-from-template/.vs/Project/v17/.suo
+/src/03-clean-architecture-ardalis/01-from-template/.vs/Project/v17/TestStore/0/000.testlog
+/src/03-clean-architecture-ardalis/01-from-template/.vs/Project/v17/TestStore/0/testlog.manifest
+/src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/01-from-template.Core.csproj.nuget.dgspec.json
+/src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/Debug/net7.0/01-from-template.Core.AssemblyInfo.cs
+/src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/Debug/net7.0/01-from-template.Core.AssemblyInfoInputs.cache
+/src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/Debug/net7.0/01-from-template.Core.sourcelink.json
+/src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/project.assets.json
+/src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/project.nuget.cache
