@@ -30156,3 +30156,11 @@ src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTe
 /src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/Debug/net7.0/01-from-template.Core.sourcelink.json
 /src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/project.assets.json
 /src/03-clean-architecture-ardalis/01-from-template/src/01-from-template.Core/obj/project.nuget.cache
+/src/02-database-interaction/01-ef-mysql/bin/Debug/net7.0/HelloConsoleEfMySql.dll
+/src/02-database-interaction/01-ef-mysql/bin/Debug/net7.0/HelloConsoleEfMySql.exe
+/src/02-database-interaction/01-ef-mysql/bin/Debug/net7.0/HelloConsoleEfMySql.pdb
+/src/02-database-interaction/01-ef-mysql/HelloConsoleEfMySql.csproj.user
+/src/03-clean-architecture-ardalis/01-from-template/.vs/Project/DesignTimeBuild/.dtbcache.v2
+/src/03-clean-architecture-ardalis/01-from-template/.vs/Project/v17/.futdcache.v2
+/src/03-clean-architecture-ardalis/01-from-template/.vs/ProjectEvaluation/project.metadata.v7.bin
+/src/03-clean-architecture-ardalis/01-from-template/.vs/ProjectEvaluation/project.projects.v7.bin

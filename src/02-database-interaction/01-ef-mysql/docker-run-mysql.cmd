@@ -1,0 +1,1 @@
+docker run -d --name mysql_rs2 -e MYSQL_ROOT_PASSWORD=MySQL123 -e MYSQL_DATABASE=skole -v /c/vlado/docker_volumes/mysql_rs2:/var/lib/mysql -p 3306:3306 mysql:latest
