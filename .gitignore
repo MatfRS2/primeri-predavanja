@@ -30164,3 +30164,9 @@ src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTe
 /src/03-clean-architecture-ardalis/01-from-template/.vs/Project/v17/.futdcache.v2
 /src/03-clean-architecture-ardalis/01-from-template/.vs/ProjectEvaluation/project.metadata.v7.bin
 /src/03-clean-architecture-ardalis/01-from-template/.vs/ProjectEvaluation/project.projects.v7.bin
+/src/02-database-interaction/02-ef-ms-sql-server/bin/Debug/net7.0/HelloConsoleEfSqlSrv.dll
+/src/02-database-interaction/02-ef-ms-sql-server/bin/Debug/net7.0/HelloConsoleEfSqlSrv.exe
+/src/02-database-interaction/02-ef-ms-sql-server/bin/Debug/net7.0/HelloConsoleEfSqlSrv.pdb
+/src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net7.0/HelloConsoleEfXBoth.dll
+/src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net7.0/HelloConsoleEfXBoth.exe
+/src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net7.0/HelloConsoleEfXBoth.pdb
