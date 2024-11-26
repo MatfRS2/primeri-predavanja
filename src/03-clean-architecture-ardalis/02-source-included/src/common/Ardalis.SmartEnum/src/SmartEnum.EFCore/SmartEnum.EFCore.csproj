@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6;net7;net8</TargetFrameworks>
+		<PackageId>Ardalis.SmartEnum.EFCore</PackageId>
+		<Title>Ardalis.SmartEnum.EFCore</Title>
+		<Description>EFCore support for Ardalis.SmartEnum.</Description>
+		<Summary>EFCore support for Ardalis.SmartEnum.</Summary>
+		<PackageTags>enum;smartenum;entityframeworkcore;ardalis</PackageTags>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReleaseNotes>See root package release notes</PackageReleaseNotes>
+		<AssemblyName>Ardalis.SmartEnum.EFCore</AssemblyName>
+		<RootNamespace>Ardalis.SmartEnum.EFCore</RootNamespace>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="$(SolutionDir)img\icon.png" Pack="true" Visible="false" PackagePath="" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" />
+	  <PackageReference Include="System.Text.Json" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\SmartEnum\SmartEnum.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageVersion Update="SonarAnalyzer.CSharp" Version="9.32.0.97167" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="SonarAnalyzer.CSharp">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+</Project>
