@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-ef-mysql", "01-ef-mysql", "{CD1BA675-733D-4653-B820-E76B2D4021E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-ef-ms-sql-server", "02-ef-ms-sql-server", "{88E7679F-B0A2-4785-BFA7-B0DC2DE3F61B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-ef-both-mysql-ms-sql", "03-ef-both-mysql-ms-sql", "{423BE891-424D-40BA-A9CC-F926CA71CD51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEfMySql", "01-ef-mysql\HelloConsoleEfMySql.csproj", "{EAFD8911-8823-46B6-BA90-D8078EA58E3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEfSqlSrv", "02-ef-ms-sql-server\HelloConsoleEfSqlSrv.csproj", "{12D47F70-D59D-4A4A-9DFC-8BC6671C1E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEfXBoth", "03-ef-both-mysql-ms-sql\HelloConsoleEfXBoth.csproj", "{6247059D-41AB-4D8B-B23F-C9AED5403951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAFD8911-8823-46B6-BA90-D8078EA58E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFD8911-8823-46B6-BA90-D8078EA58E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFD8911-8823-46B6-BA90-D8078EA58E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFD8911-8823-46B6-BA90-D8078EA58E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D47F70-D59D-4A4A-9DFC-8BC6671C1E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D47F70-D59D-4A4A-9DFC-8BC6671C1E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D47F70-D59D-4A4A-9DFC-8BC6671C1E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D47F70-D59D-4A4A-9DFC-8BC6671C1E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6247059D-41AB-4D8B-B23F-C9AED5403951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6247059D-41AB-4D8B-B23F-C9AED5403951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6247059D-41AB-4D8B-B23F-C9AED5403951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6247059D-41AB-4D8B-B23F-C9AED5403951}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAFD8911-8823-46B6-BA90-D8078EA58E3C} = {CD1BA675-733D-4653-B820-E76B2D4021E5}
+		{12D47F70-D59D-4A4A-9DFC-8BC6671C1E38} = {88E7679F-B0A2-4785-BFA7-B0DC2DE3F61B}
+		{6247059D-41AB-4D8B-B23F-C9AED5403951} = {423BE891-424D-40BA-A9CC-F926CA71CD51}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}
+	EndGlobalSection
+EndGlobal
