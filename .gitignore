@@ -30170,3 +30170,9 @@ src/03-clean-architecture-ardalis/01-from-template/tests/01-from-template.UnitTe
 /src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net7.0/HelloConsoleEfXBoth.dll
 /src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net7.0/HelloConsoleEfXBoth.exe
 /src/02-database-interaction/03-ef-both-mysql-ms-sql/bin/Debug/net7.0/HelloConsoleEfXBoth.pdb
+/src/03-clean-architecture-ardalis/02-source-included/src/Project.Web/database.sqlite-shm
+/src/03-clean-architecture-ardalis/02-source-included/src/Project.Web/database.sqlite-wal
+/src/03-clean-architecture-ardalis/02-source-included/src/Project.Web/log20241125.txt
+/src/03-clean-architecture-ardalis/02-source-included/src/Project.Web/Project.Web.csproj.user
+/src/03-clean-architecture-ardalis/02-source-included/.vs/Project/config/applicationhost.config
+/src/03-clean-architecture-ardalis/02-source-included/tests/Project.FunctionalTests/bin/Debug/net7.0/log20241125.txt
