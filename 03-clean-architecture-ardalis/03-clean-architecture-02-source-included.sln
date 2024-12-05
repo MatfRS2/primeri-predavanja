@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Specification", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Result", "..\..\MatfRS2--ardalis--Result\src\Ardalis.Result\Ardalis.Result.csproj", "{B87905FA-DE6A-6040-F581-80026C68E7D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartEnum", "..\..\MatfRS2--ardalis--SmartEnum\src\SmartEnum\SmartEnum.csproj", "{07194A7B-3682-73C0-DA05-8E2CCFE8B16C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07194A7B-3682-73C0-DA05-8E2CCFE8B16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07194A7B-3682-73C0-DA05-8E2CCFE8B16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07194A7B-3682-73C0-DA05-8E2CCFE8B16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07194A7B-3682-73C0-DA05-8E2CCFE8B16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{3C120BDA-65D6-5896-793D-0E95F9AFAFE1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0D704535-D2BA-384B-0423-CBFEDE15AC44} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B87905FA-DE6A-6040-F581-80026C68E7D4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{07194A7B-3682-73C0-DA05-8E2CCFE8B16C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0F19343-8185-4A9F-9165-0EA8544BC925}
