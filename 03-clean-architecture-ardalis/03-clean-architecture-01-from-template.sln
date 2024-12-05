@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31815.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{106AE906-5075-410A-B941-912F811848EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B31B4797-1D9F-4288-808C-BE9A31A98C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{250F283E-FE2F-4BBD-9E63-A2265B84E23F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CleanArchitecture.nuspec = CleanArchitecture.nuspec
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.Core", "01-from-template\src\03-clean-architecture-ardalis.Core\03-clean-architecture-ardalis.Core.csproj", "{FE2D3E12-3702-3030-8176-41EDFE186B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.Infrastructure", "01-from-template\src\03-clean-architecture-ardalis.Infrastructure\03-clean-architecture-ardalis.Infrastructure.csproj", "{3E165B02-73EF-22C0-27CC-F9D8E15665A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.UseCases", "01-from-template\src\03-clean-architecture-ardalis.UseCases\03-clean-architecture-ardalis.UseCases.csproj", "{570CD821-B245-8873-EAD8-50AEE7AAA443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.Web", "01-from-template\src\03-clean-architecture-ardalis.Web\03-clean-architecture-ardalis.Web.csproj", "{DBC7CE4C-FC04-4880-8712-14747364562B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.UnitTests", "01-from-template\tests\03-clean-architecture-ardalis.UnitTests\03-clean-architecture-ardalis.UnitTests.csproj", "{796C8F28-9466-9A4D-770A-4318111C5428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.IntegrationTests", "01-from-template\tests\03-clean-architecture-ardalis.IntegrationTests\03-clean-architecture-ardalis.IntegrationTests.csproj", "{1C71DF49-F758-44FF-EF46-8385ECD1F45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-clean-architecture-ardalis.FunctionalTests", "01-from-template\tests\03-clean-architecture-ardalis.FunctionalTests\03-clean-architecture-ardalis.FunctionalTests.csproj", "{DF1A3B7F-BB2E-1BE7-8231-D35C744BE748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2D3E12-3702-3030-8176-41EDFE186B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2D3E12-3702-3030-8176-41EDFE186B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2D3E12-3702-3030-8176-41EDFE186B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2D3E12-3702-3030-8176-41EDFE186B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E165B02-73EF-22C0-27CC-F9D8E15665A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E165B02-73EF-22C0-27CC-F9D8E15665A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E165B02-73EF-22C0-27CC-F9D8E15665A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E165B02-73EF-22C0-27CC-F9D8E15665A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570CD821-B245-8873-EAD8-50AEE7AAA443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570CD821-B245-8873-EAD8-50AEE7AAA443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570CD821-B245-8873-EAD8-50AEE7AAA443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570CD821-B245-8873-EAD8-50AEE7AAA443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC7CE4C-FC04-4880-8712-14747364562B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7CE4C-FC04-4880-8712-14747364562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC7CE4C-FC04-4880-8712-14747364562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC7CE4C-FC04-4880-8712-14747364562B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796C8F28-9466-9A4D-770A-4318111C5428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796C8F28-9466-9A4D-770A-4318111C5428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796C8F28-9466-9A4D-770A-4318111C5428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796C8F28-9466-9A4D-770A-4318111C5428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C71DF49-F758-44FF-EF46-8385ECD1F45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C71DF49-F758-44FF-EF46-8385ECD1F45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C71DF49-F758-44FF-EF46-8385ECD1F45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C71DF49-F758-44FF-EF46-8385ECD1F45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1A3B7F-BB2E-1BE7-8231-D35C744BE748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1A3B7F-BB2E-1BE7-8231-D35C744BE748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1A3B7F-BB2E-1BE7-8231-D35C744BE748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1A3B7F-BB2E-1BE7-8231-D35C744BE748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE2D3E12-3702-3030-8176-41EDFE186B24} = {106AE906-5075-410A-B941-912F811848EE}
+		{3E165B02-73EF-22C0-27CC-F9D8E15665A3} = {106AE906-5075-410A-B941-912F811848EE}
+		{570CD821-B245-8873-EAD8-50AEE7AAA443} = {106AE906-5075-410A-B941-912F811848EE}
+		{DBC7CE4C-FC04-4880-8712-14747364562B} = {106AE906-5075-410A-B941-912F811848EE}
+		{796C8F28-9466-9A4D-770A-4318111C5428} = {B31B4797-1D9F-4288-808C-BE9A31A98C7D}
+		{1C71DF49-F758-44FF-EF46-8385ECD1F45E} = {B31B4797-1D9F-4288-808C-BE9A31A98C7D}
+		{DF1A3B7F-BB2E-1BE7-8231-D35C744BE748} = {B31B4797-1D9F-4288-808C-BE9A31A98C7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0F19343-8185-4A9F-9165-0EA8544BC925}
+	EndGlobalSection
+EndGlobal
