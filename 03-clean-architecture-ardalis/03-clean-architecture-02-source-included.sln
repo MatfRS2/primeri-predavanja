@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardClauses", "..\..\MatfR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Specification", "..\..\MatfRS2--ardalis--Specification\Specification\src\Ardalis.Specification\Ardalis.Specification.csproj", "{0D704535-D2BA-384B-0423-CBFEDE15AC44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Result", "..\..\MatfRS2--ardalis--Result\src\Ardalis.Result\Ardalis.Result.csproj", "{B87905FA-DE6A-6040-F581-80026C68E7D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{0D704535-D2BA-384B-0423-CBFEDE15AC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D704535-D2BA-384B-0423-CBFEDE15AC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D704535-D2BA-384B-0423-CBFEDE15AC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87905FA-DE6A-6040-F581-80026C68E7D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{66960DF5-1756-BBED-1886-D4C22257B996} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3C120BDA-65D6-5896-793D-0E95F9AFAFE1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0D704535-D2BA-384B-0423-CBFEDE15AC44} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B87905FA-DE6A-6040-F581-80026C68E7D4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0F19343-8185-4A9F-9165-0EA8544BC925}
