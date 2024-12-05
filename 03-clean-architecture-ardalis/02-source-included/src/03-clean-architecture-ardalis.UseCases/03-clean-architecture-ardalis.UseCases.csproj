@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" />
+    <PackageReference Include="MediatR" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\03-clean-architecture-ardalis.Core\03-clean-architecture-ardalis.Core.csproj" />
+  </ItemGroup>
+
+</Project>
