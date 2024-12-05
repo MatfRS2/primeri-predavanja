@@ -2,13 +2,16 @@
   <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.1.3" />
 
   <ItemGroup>
-    <PackageReference Include="Ardalis.GuardClauses" />
     <PackageReference Include="Ardalis.Result" />
-    <PackageReference Include="Ardalis.SharedKernel" />
     <PackageReference Include="Ardalis.SmartEnum" />
-    <PackageReference Include="Ardalis.Specification" />
     <PackageReference Include="MediatR" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\MatfRS2--ardalis--Ardalis.SharedKernel\src\Ardalis.SharedKernel\Ardalis.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\..\..\..\MatfRS2--ardalis--GuardClauses\src\GuardClauses\GuardClauses.csproj" />
+    <ProjectReference Include="..\..\..\..\..\MatfRS2--ardalis--Specification\Specification\src\Ardalis.Specification\Ardalis.Specification.csproj" />
   </ItemGroup>
 
 </Project>
