@@ -9,9 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ardalis.ListStartupServices" />
-    <PackageReference Include="Ardalis.Result" />
-    <PackageReference Include="Ardalis.Result.AspNetCore" />
     <PackageReference Include="FastEndpoints" />
     <PackageReference Include="FastEndpoints.Swagger" />
     <PackageReference Include="MediatR" />
@@ -23,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\MatfRS2--ardalis--AspNetCoreStartupServices\src\Ardalis.ListStartupServices\Ardalis.ListStartupServices.csproj" />
+    <ProjectReference Include="..\..\..\..\..\MatfRS2--ardalis--Result\src\Ardalis.Result.AspNetCore\Ardalis.Result.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\..\..\..\MatfRS2--ardalis--Result\src\Ardalis.Result\Ardalis.Result.csproj" />
     <ProjectReference Include="..\03-clean-architecture-ardalis.Infrastructure\03-clean-architecture-ardalis.Infrastructure.csproj" />
     <ProjectReference Include="..\03-clean-architecture-ardalis.UseCases\03-clean-architecture-ardalis.UseCases.csproj" />
   </ItemGroup>
