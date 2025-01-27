@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+
+  mysql:
+    image: mysql:9.2
+    command: --max-allowed-packet=64MB
+    #restart: always
+    volumes:
+      - ${MYSQL_DATA_VOLUME_PATH}:/var/lib/mysql:Z
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+    ports:
+      - "3306:3306"
+
