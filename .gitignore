@@ -1,3 +1,4 @@
+*.env
 /docker/mssql-server-volume-compose/data-mssql/.system/instance_id
 /docker/mssql-server-volume-compose/data-mssql/.system/profiles/Client/AppData/Roaming/Microsoft/Crypto/RSA/S-1-5-21-477426713-4086629959-3198995644-500/42e7704ae40b0d75de00736cc66b813a_6a77e9de-9a62-479c-85aa-f0c06bab2537
 /docker/mssql-server-volume-compose/data-mssql/.system/profiles/Client/AppData/Roaming/Microsoft/Protect/CREDHIST
