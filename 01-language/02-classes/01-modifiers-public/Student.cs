@@ -13,13 +13,13 @@ class Student
         imePrezime = ip;
     }
 
-    // Metodi getBrojIndeksa i getImePrezime su javni
-    public int getBrojIndeksa()
+    // Metodi GetBrojIndeksa i GetImePrezime su javni
+    public int GetBrojIndeksa()
     {
         return brojIndeksa;
     }
 
-    public string getImePrezime()
+    public string GetImePrezime()
     {
         return imePrezime;
     }

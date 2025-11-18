@@ -23,8 +23,8 @@ namespace RS2.ModifiersInternal
         Complex c = new Complex(); 
 
         // Accessible in class Program 
-        c.setData(2, 1); 
-        c.displayData(); 
+        c.SetData(2, 1); 
+        c.DisplayData(); 
     } 
 } 
 

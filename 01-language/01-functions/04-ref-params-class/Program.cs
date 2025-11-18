@@ -13,12 +13,12 @@ class AlgebarskiKompleksni
         imaginarniDeo = i;
     }
 
-    public int getRe()
+    public int GetRe()
     {
         return realniDeo;
     }
 
-    public int getIm()
+    public int GetIm()
     {
         return imaginarniDeo;
     }
@@ -56,27 +56,27 @@ class Program
 
         AlgebarskiKompleksni kompl = new AlgebarskiKompleksni(2, 4);
         Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
-            kompl.getRe(), kompl.getIm());
+            kompl.GetRe(), kompl.GetIm());
 
         AlgebarskiKompleksni.Azuriraj1(kompl);
         Console.WriteLine("Posle \"normalnog\" ažuriranja gde se modifikuju polja {0}", nameof(kompl));
         Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
-            kompl.getRe(), kompl.getIm());
+            kompl.GetRe(), kompl.GetIm());
 
         AlgebarskiKompleksni.Azuriraj2(ref kompl);
         Console.WriteLine("Posle ažuriranja po referenci gde se modifikuju polja {0}", nameof(kompl) );
         Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
-            kompl.getRe(), kompl.getIm());
+            kompl.GetRe(), kompl.GetIm());
 
         AlgebarskiKompleksni.Azuriraj3(kompl);
         Console.WriteLine("Posle \"normalnog\" ažuriranja gde se menja ceo objekat {0}", nameof(kompl));
         Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
-            kompl.getRe(), kompl.getIm());
+            kompl.GetRe(), kompl.GetIm());
 
         AlgebarskiKompleksni.Azuriraj4(ref kompl);
         Console.WriteLine("Posle ažuriranja po referenci gde se menja ceo objekat {0}", nameof(kompl));
         Console.WriteLine("Kompleksni broj {0} =  {1} + i {2}", nameof(kompl),
-            kompl.getRe(), kompl.getIm());
+            kompl.GetRe(), kompl.GetIm());
     }
 }
 

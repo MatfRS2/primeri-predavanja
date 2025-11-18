@@ -19,12 +19,12 @@ namespace RS2.ModifiersPrivate
 
         // value is Accessible  
         // only inside the class 
-        public void setValue(int v)
+        public void SetValue(int v)
         {
             value = v;
         }
 
-        public int getValue()
+        public int GetValue()
         {
             return value;
         }
@@ -54,8 +54,8 @@ namespace RS2.ModifiersPrivate
 
             // Use public functions to assign 
             // and use value of the member 'value' 
-            obj.setValue(4);
-            Console.WriteLine("Value = " + obj.getValue());
+            obj.SetValue(4);
+            Console.WriteLine("Value = " + obj.GetValue());
         }
     }
 }

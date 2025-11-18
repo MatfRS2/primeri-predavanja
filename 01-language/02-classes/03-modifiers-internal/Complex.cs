@@ -8,13 +8,13 @@ internal class Complex {
     int real; 
     int img; 
 
-    internal void setData(int r, int i) 
+    internal void SetData(int r, int i) 
     { 
         real = r; 
         img = i; 
     } 
 
-    internal void displayData() 
+    internal void DisplayData() 
     { 
         Console.WriteLine("Real = {0}", real); 
         Console.WriteLine("Imaginary = {0}", img); 

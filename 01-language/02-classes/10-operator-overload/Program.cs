@@ -9,19 +9,19 @@ namespace RS2.OperatorOverload
         private double breadth;   // Breadth of a box
         private double height;    // Height of a box
 
-        public double getVolume()
+        public double GetVolume()
         {
             return length * breadth * height;
         }
-        public void setLength(double len)
+        public void SetLength(double len)
         {
             length = len;
         }
-        public void setBreadth(double bre)
+        public void SetBreadth(double bre)
         {
             breadth = bre;
         }
-        public void setHeight(double hei)
+        public void SetHeight(double hei)
         {
             height = hei;
         }
@@ -123,16 +123,16 @@ namespace RS2.OperatorOverload
             Box box1 = new Box();   // Declare Box1 of type Box
   
             // box 1 specification
-            box1.setLength(6.0);
-            box1.setBreadth(7.0);
-            box1.setHeight(5.0);
+            box1.SetLength(6.0);
+            box1.SetBreadth(7.0);
+            box1.SetHeight(5.0);
 
             Box box2 = new Box();   // Declare Box2 of type Box
                                     
             // box 2 specification
-            box2.setLength(12.0);
-            box2.setBreadth(13.0);
-            box2.setHeight(10.0);
+            box2.SetLength(12.0);
+            box2.SetBreadth(13.0);
+            box2.SetHeight(10.0);
 
             //displaying the Boxes using the overloaded ToString():
             Console.WriteLine("Box 1: {0}", box1.ToString());
@@ -140,11 +140,11 @@ namespace RS2.OperatorOverload
 
             double volume = 0.0;    // Store the volume of a box here
                                     // volume of box 1
-            volume = box1.getVolume();
+            volume = box1.GetVolume();
             Console.WriteLine("Volume of Box1 : {0}", volume);
 
             // volume of box 2
-            volume = box2.getVolume();
+            volume = box2.GetVolume();
             Console.WriteLine("Volume of Box2 : {0}", volume);
 
             // Add two object as follows:
@@ -152,7 +152,7 @@ namespace RS2.OperatorOverload
             Console.WriteLine("Box 3: {0}", box3.ToString());
 
             // volume of box 3
-            volume = box3.getVolume();
+            volume = box3.GetVolume();
             Console.WriteLine("Volume of Box3 : {0}", volume);
 
             //comparing the boxes

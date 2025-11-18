@@ -27,7 +27,7 @@ class Y : X
 {
 
     // Iz metoda u klasi Y se može pristupiti elementu 'x' 
-    public int getX()
+    public int GetX()
     {
         return x;
     }
@@ -42,7 +42,7 @@ class Program
 
         // Prikaz vrednosti za x je uspešan, jer se korsti metod iz Y
         Y obj1 = new Y();
-        Console.WriteLine("Вредност за x: {0}", obj1.getX());
+        Console.WriteLine("Вредност за x: {0}", obj1.GetX());
 
         // Prikaz vrednosti za x nije moguć
         // X obj2 = new X(); 

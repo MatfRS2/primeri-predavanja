@@ -35,14 +35,14 @@ namespace RS2.Funkcije.Jednostavno
             return ret;
         }
 
-        static string Nalepi(string s, int brojPonavljanja)
+        static string Nalepi(string niska, int brojPonavljanja)
         {
             if (brojPonavljanja <= 1)
-                return s;
-            StringBuilder graditelj = new StringBuilder(s);
+                return niska;
+            StringBuilder graditelj = new StringBuilder(niska);
             for (int i = 1; i < brojPonavljanja; i++)
             {
-                graditelj.Append(s);
+                graditelj.Append(niska);
             }
             return graditelj.ToString();
         }
@@ -61,7 +61,7 @@ namespace RS2.Funkcije.Jednostavno
             z = BrojSlova("123 Miki Maus 123");
             Console.WriteLine(z);
             Console.WriteLine(Nalepi("Miki Maus ", 2));
-            Console.WriteLine(Nalepi(brojPonavljanja: 4, s: "Paja Patak "));
+            Console.WriteLine(Nalepi(brojPonavljanja: 4, niska: "Paja Patak "));
             Console.WriteLine();
         }
     }

@@ -24,7 +24,7 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         // Inicijalizuj vrednosti za a, b 
-        int a = 10, b=10;
+        int a = 10, b = 10;
 
         // Prikaži inicijalne vrednosti
         Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(a), a);
@@ -40,6 +40,7 @@ class Program
         Console.WriteLine("Vrednost promenljive {0} " +
             "nakon izvršenog oduzimanja je {1}", nameof(b), b);
         Console.WriteLine();
+
     }
 
 }

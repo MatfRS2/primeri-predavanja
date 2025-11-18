@@ -16,8 +16,8 @@ namespace RS2.Klase.KoriscenjeElementiPublic
 
             Student stud = new Student(1, "Митар Митровић");
 
-            Console.WriteLine("Ознака:        {0}", stud.getBrojIndeksa());
-            Console.WriteLine("Име и презиме: {0}", stud.getImePrezime());
+            Console.WriteLine("Ознака:        {0}", stud.GetBrojIndeksa());
+            Console.WriteLine("Име и презиме: {0}", stud.GetImePrezime());
             Console.WriteLine();
 
             //Console.WriteLine("Ознака:        {0}", stud.brojIndeksa);

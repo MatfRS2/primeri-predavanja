@@ -9,7 +9,7 @@ class Covek
         imePrezime = ip;
     }
 
-    public string getImePrezime()
+    public string GetImePrezime()
     {
         return imePrezime;
     }

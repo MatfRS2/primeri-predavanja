@@ -15,7 +15,7 @@ class Student : Covek
         brojIndeksa = bi;
     }
 
-    public int getBrojIndeksa()
+    public int GetBrojIndeksa()
     {
         return brojIndeksa;
     }
