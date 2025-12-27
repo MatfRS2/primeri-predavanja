@@ -1,20 +1,20 @@
 ﻿namespace RS2.LambdaIndexer
 {
-    class Niske
+    class Elementi<T> where T : class
     {
-        private string[] skladiste;
+        private T[] skladiste;
 
-        public Niske()
+        public Elementi()
         {
-            skladiste = new string[10];
+            skladiste = new T[10];
         }
 
-        public Niske(int dimenzija)
+        public Elementi(int dimenzija)
         {
-            skladiste = new string[dimenzija];
+            skladiste = new T[dimenzija];
         }
 
-        public string this[int index]
+        public T this[int index]
         {
             get => skladiste[index];
 

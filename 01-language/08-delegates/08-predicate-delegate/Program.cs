@@ -26,7 +26,7 @@ namespace RS2.PredicateDelegate
         static void Main(string[] args)
         {
             Predicate<string> isUpper = IsUpperCase;
-            string text = "hello world!!";
+            string text = args[0];
             bool result = isUpper(text);
             if (result)
                 Console.WriteLine("Text '{0}' is all in upper cases!", text);

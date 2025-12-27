@@ -35,7 +35,7 @@ namespace RS2.PassEventData
             {
                 Console.WriteLine("BL: Metod je pokrenut!");
                 // some code here..
-                Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");
+                Console.WriteLine("BL: Simulacija izvrsvanja programskog koda!");
                 Thread.Sleep(500);
                 // potom se ispaljujju dva dogadjaja
                 Console.WriteLine("BL: Ispali dogadjaj!");

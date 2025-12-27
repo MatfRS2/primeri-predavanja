@@ -39,20 +39,14 @@ namespace RS2.SimpleEvent
             Thread.Sleep(500);
             // potom se ispaljuje dogadjaj
             Console.WriteLine("PL> Ispali dogadjaj!");
-            IspaliProcesZavrsen();
+            if (ProcesZavrsen != null)
+                ProcesZavrsen.Invoke();
             // some code here..
             Console.WriteLine("PL> Simulacija izvrsvanja prograskog koda!");
             Thread.Sleep(500);
             Console.WriteLine("PL> Gotovo!");
         }
 
-        // metod koji ispaljuje dogadjaj
-        protected virtual void IspaliProcesZavrsen() //protected virtual method
-        {
-            // ako dogadjaj nije null, pokreni delegat
-            if( ProcesZavrsen != null) 
-                ProcesZavrsen.Invoke();
-        }
     }
 
     // rukovalac dogadjajem

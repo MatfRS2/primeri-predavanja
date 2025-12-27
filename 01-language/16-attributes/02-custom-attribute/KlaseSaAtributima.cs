@@ -21,7 +21,7 @@ public class SecondClass
 }
 
 // Class with multiple Author attributes.  
-[Author("R. Koch", version = 2.0)]
+[Author("R. Koch", version = 2.05)]
 public class ThirdClass
 {
     // ...  

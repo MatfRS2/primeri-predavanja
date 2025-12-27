@@ -83,11 +83,11 @@ namespace RS2.BreakfastSync
             OranzDjus oranzDjus = SipajOranzDjus();
             Console.WriteLine("{0} ms: oranz djus je pripremljen.", stoperica.ElapsedMilliseconds);
 
-            Jaje jaje = await przenjeJaja;
-            Console.WriteLine("{0} ms: jaja su pripremljena.", stoperica.ElapsedMilliseconds);
-
             Slanina slanina = await przenjeSlanine;
             Console.WriteLine("{0} ms: slanina je pripremljena.", stoperica.ElapsedMilliseconds);
+
+            Jaje jaje = await przenjeJaja;
+            Console.WriteLine("{0} ms: jaja su pripremljena.", stoperica.ElapsedMilliseconds);
 
             Console.WriteLine("{0} ms: dorucak je spreman!", stoperica.ElapsedMilliseconds);
         }

@@ -7,7 +7,7 @@ namespace RS2.LambdaIndexer
     {
          static void Main()
         {
-            Niske elementi = new Niske();
+            Elementi<String> elementi = new Elementi<String>();
 
             elementi[0] = "Jedan";
             elementi[1] = "Dva";

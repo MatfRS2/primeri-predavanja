@@ -1,21 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="HelloConsoleEF.Grad">
-    <Position X="6" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Grad.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="Skole" />
-    </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="System.Object" Collapsed="true">
-    <Position X="4" Y="0.75" Width="1.5" />
-    <TypeIdentifier />
-  </Class>
   <Class Name="HelloConsoleEF.Skola">
-    <Position X="1.75" Y="3.25" Width="1.5" />
+    <Position X="5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAhAAAAAAAAAAAAAAABAAAAgAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Skola.cs</FileName>
@@ -23,6 +9,16 @@
     <ShowAsAssociation>
       <Property Name="Grad" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="HelloConsoleEF.Grad">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grad.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Skole" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

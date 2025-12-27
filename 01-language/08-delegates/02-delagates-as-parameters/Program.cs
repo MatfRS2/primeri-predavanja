@@ -33,7 +33,7 @@ namespace RS2.DelegatesAsParameters
     public class Program
     {
         // u ovom metodu delegat je parametar
-        public static void PozoviDelegat(NoviDelegat del, string str) 
+        public static void PozoviDelegat(NoviDelegat del, string str)
         {
             del(str);
         }
@@ -43,8 +43,14 @@ namespace RS2.DelegatesAsParameters
             PozoviDelegat(del, "Zagor");
 
             PozoviDelegat(KlasaB.MetodB, "Veliki Blek");
+
+
+            foreach (var arg in args)
+            {
+                PozoviDelegat(KlasaB.MetodB, arg);
+            }
         }
-     }
+    }
 }
 
 /* Izlaz dobijen prilikom izvrsavanja programa:

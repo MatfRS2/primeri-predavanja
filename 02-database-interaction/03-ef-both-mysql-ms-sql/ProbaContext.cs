@@ -11,8 +11,8 @@ namespace HelloConsoleEF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;port=3306;database=skole-2019;user=root;password=m_Mysql");
-            //optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Users\\Administrator\\Skole2019.Data.mdf;Integrated Security=True;Connect Timeout=30");
+            optionsBuilder.UseMySQL("server=localhost;port=3306;database=skole;user=root;password=MySQL123");
+            //optionsBuilder.UseSqlServer("Data Source=localhost,1433;database=RS2.skole;User Id=rs2;Password=rs2pass;TrustServerCertificate=True;Encrypt=False;Connect Timeout=30");
 
         }
 

@@ -28,19 +28,15 @@ namespace RS2.EventHandlerSample
             Thread.Sleep(500);
             // potom se ispaljuje dogadjaj
             Console.WriteLine("BL: Ispali dogadjaj!");
-            IspaliProcesOkoncan(EventArgs.Empty);
+            if (ProcesOkoncan != null)
+                ProcesOkoncan.Invoke(this, EventArgs.Empty);
             // some code here..
             Console.WriteLine("BL: Simulacija izvrsavanja prograskog koda!");
             Thread.Sleep(500);
             Console.WriteLine("BL: Gotovo!");
         }
 
-        // metod koji ispaljuje dogadjaj
-        protected virtual void IspaliProcesOkoncan(EventArgs e)
-        {
-            if(ProcesOkoncan != null)
-                ProcesOkoncan.Invoke(this, e);
-        }
+
     }
 
     class Program

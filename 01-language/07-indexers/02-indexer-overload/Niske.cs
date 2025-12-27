@@ -53,7 +53,8 @@ namespace RS2.IndexerOverload
 
         public int Dimenzija
         {
-            get { return skladiste.Length; }
+        get {
+                return skladiste.Length; }
         }
 
         public void Prikazi()

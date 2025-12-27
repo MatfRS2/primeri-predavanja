@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "02.delegates.as.parameters": {
+      "commandName": "Project",
+      "commandLineArgs": "Miki Maus Paja Patak"
+    }
+  }
+}

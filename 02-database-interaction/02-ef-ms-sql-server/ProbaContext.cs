@@ -11,7 +11,7 @@ namespace HelloConsoleEF
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseSqlServer("Data Source=localhost;database=skole;User Id=sa;Password=MsSql@123;TrustServerCertificate=True;Encrypt=False;Connect Timeout=30");
+      optionsBuilder.UseSqlServer("Data Source=localhost,1433;database=RS2.skole;User Id=rs2;Password=rs2pass;TrustServerCertificate=True;Encrypt=False;Connect Timeout=30");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

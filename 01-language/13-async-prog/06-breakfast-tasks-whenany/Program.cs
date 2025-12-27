@@ -85,10 +85,10 @@ namespace RS2.BreakfastTasks
             Task<Slanina> przenjeSlanine = IsprziSlaninuAsync(3);
             Task<Tost> pripremanjeTosta = PripremiTostSaPuteromDzemomAsync(2);
 
-            var dorucakAktivnosti = new List<Task> { przenjeJaja, przenjeSlanine, pripremanjeTosta };
-            while (dorucakAktivnosti.Count > 0)
+            var nezavrseneAktivnosti = new List<Task> { przenjeJaja, przenjeSlanine, pripremanjeTosta };
+            while (nezavrseneAktivnosti.Count > 0)
             {
-                Task okoncanaAktivnost = await Task.WhenAny(dorucakAktivnosti);
+                Task okoncanaAktivnost = await Task.WhenAny(nezavrseneAktivnosti);
                 if (okoncanaAktivnost == przenjeJaja)
                 {
                     Console.WriteLine("{0} ms: jaja su pripremljena.", stoperica.ElapsedMilliseconds);
@@ -101,7 +101,7 @@ namespace RS2.BreakfastTasks
                 {
                     Console.WriteLine("{0} ms: tost je pripremljen.", stoperica.ElapsedMilliseconds);
                 }
-                dorucakAktivnosti.Remove(okoncanaAktivnost);
+                nezavrseneAktivnosti.Remove(okoncanaAktivnost);
             }
 
             OranzDjus oranzDjus = SipajOranzDjus();

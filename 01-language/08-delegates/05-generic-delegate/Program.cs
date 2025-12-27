@@ -26,11 +26,11 @@ namespace RS2.GenericDelegate
             Dodaj<int> sum = Sum;
             Console.WriteLine(sum(10, 20));
 
-            Dodaj<string> con = Concat;
-            Console.WriteLine(con(con("Miki", " "), "Maus"));
+            Dodaj<string> nalepi = Concat;
+            Console.WriteLine(nalepi(nalepi("Miki", " "), "Maus"));
 
             Dodaj<double> sum2 = SumSquared;
-            Console.WriteLine(sum2(10, 20));
+            Console.WriteLine(sum2(10.5, 20));
         }
 
      }

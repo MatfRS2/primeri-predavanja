@@ -51,5 +51,6 @@ num3 = num1 ?? num2 ?? 5.34;
 //num3 = num1.HasValue ? num1.Value : 5.34;
 Console.WriteLine(" Value of num3: {0}", num3);
 
+num3 = (num4 != null) ? num4 : 5.34;
 num3 = num4 ?? 5.34;
 Console.WriteLine(" Value of num3: {0}", num3);

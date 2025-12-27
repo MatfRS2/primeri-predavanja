@@ -68,18 +68,17 @@ namespace HelloConsoleEF
 
         private static void GradoviNaKonzolu()
         {
-            using (var context = new ProbaContext())
+            using var context = new ProbaContext();
+            var gradovi = context.Grad;
+            var data = new StringBuilder();
+            foreach (Grad g in gradovi)
             {
-                var gradovi = context.Grad;
-                var data = new StringBuilder();
-                foreach (Grad g in gradovi)
-                {
-                    data.AppendLine($"Naziv grada: {g.Naziv}");
-                    data.AppendLine($"Id grada: {g.Id}");
-                }
-                Console.WriteLine(data.ToString());
+                data.AppendLine($"Naziv grada: {g.Naziv}");
+                data.AppendLine($"Id grada: {g.Id}");
             }
+            Console.WriteLine(data.ToString());
         }
+
         private static void SkoleNaKonzolu()
         {
             using (var context = new ProbaContext())
@@ -94,7 +93,6 @@ namespace HelloConsoleEF
                 }
                 Console.WriteLine(data.ToString());
             }
-
         }
 
         private static void SkoleNaKonzolu(string imeGrada)
@@ -102,7 +100,7 @@ namespace HelloConsoleEF
             using (var context = new ProbaContext())
             {
                 var listaGradId = context.Grad
-                    .Where(x => x.Naziv.Equals(imeGrada))
+                    .Where(x => x.Naziv.ToLower().Equals(imeGrada.Trim().ToLower()))
                     .Select(x => x.Id)
                     .ToList();
                 if (listaGradId.Count <= 0)
@@ -131,10 +129,22 @@ namespace HelloConsoleEF
         {
             using (var context = new ProbaContext())
             {
-                Grad g = new Grad();
-                g.Naziv = imeGrada;
-                context.Grad.Add(g);
-                context.SaveChanges();
+                {
+                    Grad g = new Grad();
+                    g.Naziv = imeGrada;
+                    context.Grad.Add(g);
+                }
+                {
+                    Grad gd = new Grad();
+                    gd.Naziv = "Donji " + imeGrada;
+                    context.Grad.Add(gd);
+                }
+                {
+                    Grad gg = new Grad();
+                    gg.Naziv = "Gornji " + imeGrada;
+                    context.Grad.Add(gg);
+                    context.SaveChanges();
+                }
             }
         }
 

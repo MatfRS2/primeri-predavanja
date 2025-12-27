@@ -21,7 +21,7 @@ namespace RS2.RecordPositional
         {
             Proizvod proizvod = new Knjiga
             {
-                Naziv = "AUtostoperski vodic kroz galaksiju",
+                Naziv = "Autostoperski vodic kroz galaksiju",
                 KategorijaId = 2,
                 ISBN = "00000000000000"
             };
@@ -41,7 +41,7 @@ namespace RS2.RecordPositional
 
             var proizvod3 = new Proizvod
             {
-                Naziv = "AUtostoperski vodic kroz galaksiju",
+                Naziv = "Autostoperski vodic kroz galaksiju",
                 KategorijaId = 2
             };
             if (proizvod.Equals(proizvod3))

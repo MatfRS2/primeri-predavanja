@@ -1,0 +1,323 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41746DAD-0734-4F8F-91D9-247280C4BFAF}|17-linq\\02-linq-samples\\02.linq.samples.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\17-linq\\02-linq-samples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41746DAD-0734-4F8F-91D9-247280C4BFAF}|17-linq\\02-linq-samples\\02.linq.samples.csproj|solutionrelative:17-linq\\02-linq-samples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E61A059-6FBD-40F5-9F3A-811667132303}|17-linq\\01-simple-linq\\01.simple.linq.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\17-linq\\01-simple-linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E61A059-6FBD-40F5-9F3A-811667132303}|17-linq\\01-simple-linq\\01.simple.linq.csproj|solutionrelative:17-linq\\01-simple-linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E11A380-473A-4291-B2F6-628B479C339D}|16-attributes\\02-custom-attribute\\02.custom.attribute.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E11A380-473A-4291-B2F6-628B479C339D}|16-attributes\\02-custom-attribute\\02.custom.attribute.csproj|solutionrelative:16-attributes\\02-custom-attribute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E11A380-473A-4291-B2F6-628B479C339D}|16-attributes\\02-custom-attribute\\02.custom.attribute.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\klasesaatributima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E11A380-473A-4291-B2F6-628B479C339D}|16-attributes\\02-custom-attribute\\02.custom.attribute.csproj|solutionrelative:16-attributes\\02-custom-attribute\\klasesaatributima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E11A380-473A-4291-B2F6-628B479C339D}|16-attributes\\02-custom-attribute\\02.custom.attribute.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\authorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E11A380-473A-4291-B2F6-628B479C339D}|16-attributes\\02-custom-attribute\\02.custom.attribute.csproj|solutionrelative:16-attributes\\02-custom-attribute\\authorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF20FD7-446D-4DE5-8380-EA29D338D966}|16-attributes\\01-simple-attributes\\01.usage.of.attributes.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\16-attributes\\01-simple-attributes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF20FD7-446D-4DE5-8380-EA29D338D966}|16-attributes\\01-simple-attributes\\01.usage.of.attributes.csproj|solutionrelative:16-attributes\\01-simple-attributes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842C6A3B-1D34-45D2-81AB-FF50DE2DC3A6}|15-records\\04-records-inheritance\\04.records.inheritance.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\15-records\\04-records-inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842C6A3B-1D34-45D2-81AB-FF50DE2DC3A6}|15-records\\04-records-inheritance\\04.records.inheritance.csproj|solutionrelative:15-records\\04-records-inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EF5746-40EA-47B8-BA8A-AD8AA28A0EAA}|15-records\\03-positional-records-short\\03.records.positional.short.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\15-records\\03-positional-records-short\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EF5746-40EA-47B8-BA8A-AD8AA28A0EAA}|15-records\\03-positional-records-short\\03.records.positional.short.csproj|solutionrelative:15-records\\03-positional-records-short\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3745FC-54C2-4206-A30D-18AAEA0FA69B}|15-records\\02-positional-records\\02.records.positional.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\15-records\\02-positional-records\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3745FC-54C2-4206-A30D-18AAEA0FA69B}|15-records\\02-positional-records\\02.records.positional.csproj|solutionrelative:15-records\\02-positional-records\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC45009-87AC-4DFA-8B8C-1FC402371143}|15-records\\01-simple-records\\01.records.simple.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\15-records\\01-simple-records\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC45009-87AC-4DFA-8B8C-1FC402371143}|15-records\\01-simple-records\\01.records.simple.csproj|solutionrelative:15-records\\01-simple-records\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D7FB74-3E89-4C42-AAF1-74D7898084BA}|14-nullable\\01-simple-nullable\\01.nullable.simples.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\14-nullable\\01-simple-nullable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D7FB74-3E89-4C42-AAF1-74D7898084BA}|14-nullable\\01-simple-nullable\\01.nullable.simples.csproj|solutionrelative:14-nullable\\01-simple-nullable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFAAE64-E844-4898-807B-DBF36F218D3D}|13-async-prog\\06-breakfast-tasks-whenany\\06.breakfast.tasks.whenany.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\13-async-prog\\06-breakfast-tasks-whenany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFAAE64-E844-4898-807B-DBF36F218D3D}|13-async-prog\\06-breakfast-tasks-whenany\\06.breakfast.tasks.whenany.csproj|solutionrelative:13-async-prog\\06-breakfast-tasks-whenany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1E3E44-55CB-4405-89BC-E5D0DE62D1CD}|13-async-prog\\05-breakfast-tasks-whenall\\05.breakfast.tasks.whenall.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\13-async-prog\\05-breakfast-tasks-whenall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1E3E44-55CB-4405-89BC-E5D0DE62D1CD}|13-async-prog\\05-breakfast-tasks-whenall\\05.breakfast.tasks.whenall.csproj|solutionrelative:13-async-prog\\05-breakfast-tasks-whenall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1EF2F4-F274-4325-AE34-5B968BD2BB59}|13-async-prog\\04-breakfast-tasks-composition\\04.breakfast.tasks.composition.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\13-async-prog\\04-breakfast-tasks-composition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E1EF2F4-F274-4325-AE34-5B968BD2BB59}|13-async-prog\\04-breakfast-tasks-composition\\04.breakfast.tasks.composition.csproj|solutionrelative:13-async-prog\\04-breakfast-tasks-composition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A521650F-67E8-40B7-8ADB-AD68B4E4AABA}|13-async-prog\\03-brekfast-concurent-tasks\\03.breakfast.concurent.tasks.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\13-async-prog\\03-brekfast-concurent-tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A521650F-67E8-40B7-8ADB-AD68B4E4AABA}|13-async-prog\\03-brekfast-concurent-tasks\\03.breakfast.concurent.tasks.csproj|solutionrelative:13-async-prog\\03-brekfast-concurent-tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A521650F-67E8-40B7-8ADB-AD68B4E4AABA}|13-async-prog\\03-brekfast-concurent-tasks\\03.breakfast.concurent.tasks.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\13-async-prog\\03-brekfast-concurent-tasks\\pocos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A521650F-67E8-40B7-8ADB-AD68B4E4AABA}|13-async-prog\\03-brekfast-concurent-tasks\\03.breakfast.concurent.tasks.csproj|solutionrelative:13-async-prog\\03-brekfast-concurent-tasks\\pocos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4647414-8631-4D87-A920-447D8D9D3A49}|13-async-prog\\02-brekfast-non-block-seq\\02.breakfast.non.block.seq.csproj|c:\\vlado\\courses\\matf\\matfrs2--primeri-predavanja\\01-language\\13-async-prog\\02-brekfast-non-block-seq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4647414-8631-4D87-A920-447D8D9D3A49}|13-async-prog\\02-brekfast-non-block-seq\\02.breakfast.non.block.seq.csproj|solutionrelative:13-async-prog\\02-brekfast-non-block-seq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 203,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\17-linq\\02-linq-samples\\Program.cs",
+              "RelativeDocumentMoniker": "17-linq\\02-linq-samples\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\17-linq\\02-linq-samples\\Program.cs",
+              "RelativeToolTip": "17-linq\\02-linq-samples\\Program.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAkwNgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:28:32.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\17-linq\\01-simple-linq\\Program.cs",
+              "RelativeDocumentMoniker": "17-linq\\01-simple-linq\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\17-linq\\01-simple-linq\\Program.cs",
+              "RelativeToolTip": "17-linq\\01-simple-linq\\Program.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAIwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:18:12.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\Program.cs",
+              "RelativeDocumentMoniker": "16-attributes\\02-custom-attribute\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\Program.cs",
+              "RelativeToolTip": "16-attributes\\02-custom-attribute\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:57:08.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KlaseSaAtributima.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\KlaseSaAtributima.cs",
+              "RelativeDocumentMoniker": "16-attributes\\02-custom-attribute\\KlaseSaAtributima.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\KlaseSaAtributima.cs",
+              "RelativeToolTip": "16-attributes\\02-custom-attribute\\KlaseSaAtributima.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:55:43.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorAttribute.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\AuthorAttribute.cs",
+              "RelativeDocumentMoniker": "16-attributes\\02-custom-attribute\\AuthorAttribute.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\02-custom-attribute\\AuthorAttribute.cs",
+              "RelativeToolTip": "16-attributes\\02-custom-attribute\\AuthorAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:55:37.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\01-simple-attributes\\Program.cs",
+              "RelativeDocumentMoniker": "16-attributes\\01-simple-attributes\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\16-attributes\\01-simple-attributes\\Program.cs",
+              "RelativeToolTip": "16-attributes\\01-simple-attributes\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:55:15.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\04-records-inheritance\\Program.cs",
+              "RelativeDocumentMoniker": "15-records\\04-records-inheritance\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\04-records-inheritance\\Program.cs",
+              "RelativeToolTip": "15-records\\04-records-inheritance\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:49:37.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\03-positional-records-short\\Program.cs",
+              "RelativeDocumentMoniker": "15-records\\03-positional-records-short\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\03-positional-records-short\\Program.cs",
+              "RelativeToolTip": "15-records\\03-positional-records-short\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:48:14.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\02-positional-records\\Program.cs",
+              "RelativeDocumentMoniker": "15-records\\02-positional-records\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\02-positional-records\\Program.cs",
+              "RelativeToolTip": "15-records\\02-positional-records\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:44:54.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\01-simple-records\\Program.cs",
+              "RelativeDocumentMoniker": "15-records\\01-simple-records\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\15-records\\01-simple-records\\Program.cs",
+              "RelativeToolTip": "15-records\\01-simple-records\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:41:29.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\14-nullable\\01-simple-nullable\\Program.cs",
+              "RelativeDocumentMoniker": "14-nullable\\01-simple-nullable\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\14-nullable\\01-simple-nullable\\Program.cs",
+              "RelativeToolTip": "14-nullable\\01-simple-nullable\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:38:47.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\06-breakfast-tasks-whenany\\Program.cs",
+              "RelativeDocumentMoniker": "13-async-prog\\06-breakfast-tasks-whenany\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\06-breakfast-tasks-whenany\\Program.cs",
+              "RelativeToolTip": "13-async-prog\\06-breakfast-tasks-whenany\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwF0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:35:14.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\05-breakfast-tasks-whenall\\Program.cs",
+              "RelativeDocumentMoniker": "13-async-prog\\05-breakfast-tasks-whenall\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\05-breakfast-tasks-whenall\\Program.cs",
+              "RelativeToolTip": "13-async-prog\\05-breakfast-tasks-whenall\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwFYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:34:33.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\04-breakfast-tasks-composition\\Program.cs",
+              "RelativeDocumentMoniker": "13-async-prog\\04-breakfast-tasks-composition\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\04-breakfast-tasks-composition\\Program.cs",
+              "RelativeToolTip": "13-async-prog\\04-breakfast-tasks-composition\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:33:26.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\03-brekfast-concurent-tasks\\Program.cs",
+              "RelativeDocumentMoniker": "13-async-prog\\03-brekfast-concurent-tasks\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\03-brekfast-concurent-tasks\\Program.cs",
+              "RelativeToolTip": "13-async-prog\\03-brekfast-concurent-tasks\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:28:29.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "POCOs.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\03-brekfast-concurent-tasks\\POCOs.cs",
+              "RelativeDocumentMoniker": "13-async-prog\\03-brekfast-concurent-tasks\\POCOs.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\03-brekfast-concurent-tasks\\POCOs.cs",
+              "RelativeToolTip": "13-async-prog\\03-brekfast-concurent-tasks\\POCOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:28:26.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\02-brekfast-non-block-seq\\Program.cs",
+              "RelativeDocumentMoniker": "13-async-prog\\02-brekfast-non-block-seq\\Program.cs",
+              "ToolTip": "C:\\vlado\\Courses\\Matf\\MatfRS2--primeri-predavanja\\01-language\\13-async-prog\\02-brekfast-non-block-seq\\Program.cs",
+              "RelativeToolTip": "13-async-prog\\02-brekfast-non-block-seq\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:22:32.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

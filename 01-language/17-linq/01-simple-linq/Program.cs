@@ -123,15 +123,16 @@ namespace RS2.SimpleLinq
             Console.WriteLine("---");
 
             // Use LINQ (method syntax) to find students within age interval  
-            studentiTinejdzeri = sviStudenti.Where(s => s.Age > 12 && s.Age < 20).ToArray();
+            var studentiQM = sviStudenti.Where(s => s.Age > 12 && s.Age < 20);
+            studentiTinejdzeri = studentiQM.ToArray();
             studentiTinejdzeri.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use LINQ (query syntax) to find students within age interval  
-            var studentiEnum = from s in sviStudenti
+            var studentiQQ = from s in sviStudenti
                        where(s.Age > 12 && s.Age < 20)
                        select s;
-            studentiEnum.ToArray().PrikaziNaKonzoli();
+            studentiQQ.ToArray().PrikaziNaKonzoli();
             Console.WriteLine("---");
 
             // Use LINQ (method syntax) to find first student whose name is Bill 
@@ -140,10 +141,10 @@ namespace RS2.SimpleLinq
             Console.WriteLine("---");
 
             // Use LINQ (query syntax) to find first student whose name is Bill 
-            studentiEnum = from s in sviStudenti
+            studentiQQ = from s in sviStudenti
                            where s.StudentName == "Bill"
                            select s;
-            bill = studentiEnum.FirstOrDefault();
+            bill = studentiQQ.FirstOrDefault();
             Console.WriteLine("{0} - {1}, {2}", bill.StudentId, bill.StudentName, bill.Age);
             Console.WriteLine("---");
 
@@ -154,10 +155,10 @@ namespace RS2.SimpleLinq
             Console.WriteLine("---");
 
             // Use LINQ (query syntax) to find student whose StudentId is 5
-            studentiEnum = from s in sviStudenti
+            studentiQQ = from s in sviStudenti
                            where s.StudentId == 5
                            select s;
-            student5 = studentiEnum.FirstOrDefault();
+            student5 = studentiQQ.FirstOrDefault();
             Console.WriteLine("{0} - {1}, {2}", student5.StudentId, student5.StudentName, student5.Age);
             Console.WriteLine("---");
 
