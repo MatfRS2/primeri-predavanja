@@ -28,8 +28,9 @@ namespace HelloConsoleEF
       {
         entity.HasKey(e => e.Id);
         entity.Property(e => e.Naziv).IsRequired();
-        entity.HasOne(d => d.Grad)
-          .WithMany(p => p.Skole);
+
+        entity.HasOne(s => s.Grad)
+          .WithMany(g => g.Skole);
       });
     }
   }

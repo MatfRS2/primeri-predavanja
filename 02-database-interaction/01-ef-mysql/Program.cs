@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Text;
@@ -100,8 +100,8 @@ namespace HelloConsoleEF
             using (var context = new ProbaContext())
             {
                 var listaGradId = context.Grad
-                    .Where(x => x.Naziv.ToLower().Equals(imeGrada.Trim().ToLower()))
-                    .Select(x => x.Id)
+                    .Where(g => g.Naziv.ToLower().Equals(imeGrada.Trim().ToLower()))
+                    .Select(g => g.Id)
                     .ToList();
                 if (listaGradId.Count <= 0)
                 {
@@ -143,8 +143,8 @@ namespace HelloConsoleEF
                     Grad gg = new Grad();
                     gg.Naziv = "Gornji " + imeGrada;
                     context.Grad.Add(gg);
-                    context.SaveChanges();
                 }
+                context.SaveChanges();
             }
         }
 
