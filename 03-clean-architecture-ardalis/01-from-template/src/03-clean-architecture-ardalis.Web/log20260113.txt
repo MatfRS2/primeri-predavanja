@@ -1,0 +1,161 @@
+2026-01-13 14:30:18.657 +01:00 [INF] Registered 5 endpoints in 2.135 milliseconds.
+2026-01-13 14:30:20.381 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2026-01-13 14:30:20.687 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2026-01-13 14:30:20.990 +01:00 [INF] Now listening on: https://localhost:57679
+2026-01-13 14:30:20.999 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-01-13 14:30:21.110 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-13 14:30:21.113 +01:00 [INF] Hosting environment: Development
+2026-01-13 14:30:21.115 +01:00 [INF] Content root path: C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Web
+2026-01-13 14:31:08.572 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/ - null null
+2026-01-13 14:31:08.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/ - 404 null null 290.2832ms
+2026-01-13 14:31:08.868 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:57679/, Response status code: 404
+2026-01-13 14:31:16.016 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2026-01-13 14:31:16.030 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 null null 14.3694ms
+2026-01-13 14:31:16.036 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2026-01-13 14:31:16.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/swagger-ui.css - null null
+2026-01-13 14:31:16.102 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-13 14:31:16.099 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/swagger-ui-bundle.js - null null
+2026-01-13 14:31:16.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.css - null null
+2026-01-13 14:31:16.098 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 62.8745ms
+2026-01-13 14:31:16.176 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-13 14:31:16.178 +01:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-01-13 14:31:16.183 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.css - 200 218 text/css 84.9189ms
+2026-01-13 14:31:16.190 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-01-13 14:31:16.194 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-13 14:31:16.193 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 16550 application/javascript; charset=utf-8 16.6473ms
+2026-01-13 14:31:16.208 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/swagger-ui.css - 200 152073 text/css 109.2023ms
+2026-01-13 14:31:16.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/swagger-ui-standalone-preset.js - 200 230294 text/javascript 109.8813ms
+2026-01-13 14:31:16.229 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-13 14:31:16.234 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/swagger-ui-bundle.js - 200 1452754 text/javascript 135.1847ms
+2026-01-13 14:31:16.277 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2026-01-13 14:31:16.348 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.6168ms
+2026-01-13 14:31:16.542 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2026-01-13 14:31:16.575 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/favicon-32x32.png - null null
+2026-01-13 14:31:16.581 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-01-13 14:31:16.584 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/favicon-32x32.png - 200 628 image/png 8.5815ms
+2026-01-13 14:31:16.671 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 128.809ms
+2026-01-13 14:43:15.853 +01:00 [INF] Registered 5 endpoints in 707 milliseconds.
+2026-01-13 14:43:16.796 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2026-01-13 14:43:17.083 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2026-01-13 14:43:17.317 +01:00 [INF] Now listening on: https://localhost:57679
+2026-01-13 14:43:17.326 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-01-13 14:43:17.405 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-13 14:43:17.406 +01:00 [INF] Hosting environment: Development
+2026-01-13 14:43:17.408 +01:00 [INF] Content root path: C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Web
+2026-01-13 14:44:08.921 +01:00 [INF] Request starting HTTP/2 POST https://localhost:57679/Contributors - application/json 49
+2026-01-13 14:44:08.978 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2026-01-13 14:44:09.083 +01:00 [INF] Handling CreateContributorCommand
+2026-01-13 14:44:09.085 +01:00 [INF] Property Name : Miki Maus
+2026-01-13 14:44:09.087 +01:00 [INF] Property PhoneNumber : 123
+2026-01-13 14:44:09.398 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 9), @p1='?' (DbType = Int32), @p2='?', @p3='?', @p4='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status", "PhoneNumber_CountryCode", "PhoneNumber_Extension", "PhoneNumber_Number")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2026-01-13 14:44:09.439 +01:00 [INF] Handled CreateContributorCommand with Ardalis.Result.Result`1[System.Int32] in 349 ms
+2026-01-13 14:44:09.452 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2026-01-13 14:44:09.464 +01:00 [INF] Request finished HTTP/2 POST https://localhost:57679/Contributors - 200 null application/json; charset=utf-8 547.0353ms
+2026-01-13 14:44:52.037 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/Contributors - null null
+2026-01-13 14:44:52.042 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2026-01-13 14:44:52.054 +01:00 [INF] Handling ListContributorsQuery
+2026-01-13 14:44:52.056 +01:00 [INF] Property Skip : null
+2026-01-13 14:44:52.058 +01:00 [INF] Property Take : null
+2026-01-13 14:44:52.199 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2026-01-13 14:44:52.205 +01:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[_03_clean_architecture_ardalis.UseCases.Contributors.ContributorDTO]] in 145 ms
+2026-01-13 14:44:52.212 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2026-01-13 14:44:52.215 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/Contributors - 200 null application/json; charset=utf-8 186.4852ms
+2026-01-13 14:45:28.437 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/Contributors/5 - null null
+2026-01-13 14:45:28.447 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2026-01-13 14:45:28.459 +01:00 [INF] Handling GetContributorQuery
+2026-01-13 14:45:28.461 +01:00 [INF] Property ContributorId : 5
+2026-01-13 14:45:28.563 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2026-01-13 14:45:28.581 +01:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[_03_clean_architecture_ardalis.UseCases.Contributors.ContributorDTO] in 118 ms
+2026-01-13 14:45:28.584 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2026-01-13 14:45:28.587 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/Contributors/5 - 200 null application/json; charset=utf-8 152.8281ms
+2026-01-13 14:45:54.381 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:57679/Contributors/3 - null null
+2026-01-13 14:45:54.386 +01:00 [INF] Executing endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2026-01-13 14:45:54.391 +01:00 [INF] Handling DeleteContributorCommand
+2026-01-13 14:45:54.393 +01:00 [INF] Property ContributorId : 3
+2026-01-13 14:45:54.398 +01:00 [INF] Deleting Contributor 3
+2026-01-13 14:45:54.421 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2026-01-13 14:45:54.442 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Contributors"
+WHERE "Id" = @p0
+RETURNING 1;
+2026-01-13 14:45:54.461 +01:00 [INF] Handling Contributed Deleted event for 3
+2026-01-13 14:45:54.930 +01:00 [WRN] Sending email to to@test.com from from@test.com with subject Contributor Deleted using _03_clean_architecture_ardalis.Infrastructure.Email.MimeKitEmailSender.
+2026-01-13 14:46:09.817 +01:00 [INF] Executed endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2026-01-13 14:46:09.823 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at MailKit.Net.SocketUtils.SocketConnectState.OnEndConnect(IAsyncResult ar)
+--- End of stack trace from previous location ---
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetworkAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at _03_clean_architecture_ardalis.Infrastructure.Email.MimeKitEmailSender.SendEmailAsync(String to, String from, String subject, String body) in C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Infrastructure\Email\MimeKitEmailSender.cs:line 16
+   at _03_clean_architecture_ardalis.Core.ContributorAggregate.Handlers.ContributorDeletedHandler.Handle(ContributorDeletedEvent domainEvent, CancellationToken cancellationToken) in C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Core\ContributorAggregate\Handlers\ContributorDeletedHandler.cs:line 16
+   at MediatR.NotificationPublishers.ForeachAwaitPublisher.Publish(IEnumerable`1 handlerExecutors, INotification notification, CancellationToken cancellationToken)
+   at _03_clean_architecture_ardalis.Core.Services.DeleteContributorService.DeleteContributor(Int32 contributorId) in C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Core\Services\DeleteContributorService.cs:line 27
+   at _03_clean_architecture_ardalis.UseCases.Contributors.Delete.DeleteContributorHandler.Handle(DeleteContributorCommand request, CancellationToken cancellationToken) in C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.UseCases\Contributors\Delete\DeleteContributorHandler.cs:line 11
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at _03_clean_architecture_ardalis.Web.Contributors.Delete.HandleAsync(DeleteContributorRequest request, CancellationToken cancellationToken) in C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Web\Contributors\Delete.cs:line 26
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-13 14:46:09.945 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:57679/Contributors/3 - 500 null text/plain; charset=utf-8 15604.2344ms
+2026-01-13 14:47:22.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/Contributors - null null
+2026-01-13 14:47:22.711 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2026-01-13 14:47:22.713 +01:00 [INF] Handling ListContributorsQuery
+2026-01-13 14:47:22.715 +01:00 [INF] Property Skip : null
+2026-01-13 14:47:22.717 +01:00 [INF] Property Take : null
+2026-01-13 14:47:22.730 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2026-01-13 14:47:22.735 +01:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[_03_clean_architecture_ardalis.UseCases.Contributors.ContributorDTO]] in 16 ms
+2026-01-13 14:47:22.739 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2026-01-13 14:47:22.741 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/Contributors - 200 null application/json; charset=utf-8 34.4264ms
+2026-01-13 15:01:20.758 +01:00 [INF] Registered 5 endpoints in 626 milliseconds.
+2026-01-13 15:01:21.825 +01:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2026-01-13 15:01:22.126 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2026-01-13 15:01:22.349 +01:00 [INF] Now listening on: https://localhost:57679
+2026-01-13 15:01:22.356 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-01-13 15:01:23.132 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-13 15:01:23.133 +01:00 [INF] Hosting environment: Development
+2026-01-13 15:01:23.136 +01:00 [INF] Content root path: C:\vlado\Courses\Matf\MatfRS2--primeri-predavanja\03-clean-architecture-ardalis\01-from-template\src\03-clean-architecture-ardalis.Web
+2026-01-13 15:01:37.798 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/ - null null
+2026-01-13 15:01:37.998 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/ - 404 null null 208.0541ms
+2026-01-13 15:01:38.011 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:57679/, Response status code: 404
+2026-01-13 15:02:05.979 +01:00 [INF] Request starting HTTP/2 GET https://localhost:57679/Contributors/-4 - null null
+2026-01-13 15:02:05.987 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2026-01-13 15:02:06.087 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2026-01-13 15:02:06.091 +01:00 [INF] Request finished HTTP/2 GET https://localhost:57679/Contributors/-4 - 400 null application/problem+json; charset=utf-8 143.8255ms

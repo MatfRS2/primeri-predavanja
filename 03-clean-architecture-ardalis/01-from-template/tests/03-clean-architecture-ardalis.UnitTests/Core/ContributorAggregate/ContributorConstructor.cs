@@ -10,11 +10,23 @@ public class ContributorConstructor
     return new Contributor(_testName);
   }
 
+  
   [Fact]
-  public void InitializesName()
+  public void ShoudNameBeSameAsInCreation()
   {
+    // arrange - act
     _testContributor = CreateContributor();
-
+    // assert
     Assert.Equal(_testName, _testContributor.Name);
   }
-}
+
+  [Fact]
+  public void SholudPhoneNameBeNotNull()
+  {
+    // arrange - act
+    _testContributor = CreateContributor();
+    // assert
+    Assert.NotNull(_testContributor.PhoneNumber);
+  }
+  }
+

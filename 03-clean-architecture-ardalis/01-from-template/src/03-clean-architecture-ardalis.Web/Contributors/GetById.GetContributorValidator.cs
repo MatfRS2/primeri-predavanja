@@ -11,6 +11,7 @@ public class GetContributorValidator : Validator<GetContributorByIdRequest>
   public GetContributorValidator()
   {
     RuleFor(x => x.ContributorId)
-      .GreaterThan(0);
+      .GreaterThan(0)
+      .WithMessage($"Identifikator mora biti pozitivan" );
   }
 }
