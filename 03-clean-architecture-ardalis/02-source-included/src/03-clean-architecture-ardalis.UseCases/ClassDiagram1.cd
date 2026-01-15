@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_03_clean_architecture_ardalis.UseCases.Contributors.Update.UpdateContributorHandler">
+    <Position X="1.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contributors\Update\UpdateContributorHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ardalis.Result.Result&lt;T&gt;">
+    <Position X="10" Y="1" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.UseCases.Contributors.Create.CreateContributorHandler">
+    <Position X="1.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contributors\Create\CreateContributorHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.UseCases.Contributors.Get.GetContributorHandler">
+    <Position X="1.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contributors\Get\GetContributorHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.UseCases.Contributors.Delete.DeleteContributorHandler">
+    <Position X="1.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contributors\Delete\DeleteContributorHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.UseCases.Contributors.List.ListContributorsHandler">
+    <Position X="1.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contributors\List\ListContributorsHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Ardalis.SharedKernel.ICommandHandler&lt;TCommand, TResponse&gt;">
+    <Position X="6" Y="2.25" Width="3.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ardalis.SharedKernel.ICommand&lt;TResponse&gt;">
+    <Position X="6" Y="1" Width="3.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="_03_clean_architecture_ardalis.UseCases.Contributors.List.IListContributorsQueryService">
+    <Position X="6" Y="6.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contributors\List\IListContributorsQueryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Ardalis.SharedKernel.IQuery&lt;TResponse&gt;">
+    <Position X="6" Y="3.75" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ardalis.SharedKernel.IQueryHandler&lt;TQuery, TResponse&gt;">
+    <Position X="6.25" Y="5.25" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

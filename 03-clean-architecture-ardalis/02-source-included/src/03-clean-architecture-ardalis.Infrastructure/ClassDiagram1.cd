@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Data.AppDbContext">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAAAAAAUAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\AppDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.DbContext">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Data.EfRepository&lt;T&gt;">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\EfRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ardalis.Specification.EntityFrameworkCore.RepositoryBase&lt;T&gt;">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Data.Config.ContributorConfiguration">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Config\ContributorConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Data.Queries.ListContributorsQueryService">
+    <Position X="4.5" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\ListContributorsQueryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Email.SmtpEmailSender">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Email\SmtpEmailSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Email.MimeKitEmailSender">
+    <Position X="10" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Email\MimeKitEmailSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Infrastructure.Email.MailserverConfiguration">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Email\MailserverConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Microsoft.EntityFrameworkCore.IEntityTypeConfiguration&lt;TEntity&gt;">
+    <Position X="9.25" Y="5.25" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="_03_clean_architecture_ardalis.UseCases.Contributors.List.IListContributorsQueryService">
+    <Position X="4.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="_03_clean_architecture_ardalis.Core.Interfaces.IEmailSender">
+    <Position X="9" Y="8.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

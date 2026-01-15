@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_03_clean_architecture_ardalis.Core.ContributorAggregate.Contributor">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ContributorAggregate\Contributor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PhoneNumber" />
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Core.ContributorAggregate.ContributorStatus">
+    <Position X="7" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ContributorAggregate\ContributorStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Core.ContributorAggregate.PhoneNumber">
+    <Position X="2.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAIEAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContributorAggregate\Contributor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ardalis.SharedKernel.ValueObject">
+    <Position X="2" Y="1.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ardalis.SharedKernel.EntityBase">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Core.ContributorAggregate.Events.ContributorDeletedEvent">
+    <Position X="10.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContributorAggregate\Events\ContributorDeletedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Core.ContributorAggregate.Handlers.ContributorDeletedHandler">
+    <Position X="10.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ContributorAggregate\Handlers\ContributorDeletedHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Core.ContributorAggregate.Specifications.ContributorByIdSpec">
+    <Position X="14" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContributorAggregate\Specifications\ContributorByIdSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ardalis.Specification.Specification&lt;T&gt;">
+    <Position X="14.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_03_clean_architecture_ardalis.Core.Services.DeleteContributorService">
+    <Position X="9.25" Y="9.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\DeleteContributorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ardalis.SmartEnum.SmartEnum&lt;TEnum&gt;">
+    <Position X="7.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="_03_clean_architecture_ardalis.Core.Interfaces.IDeleteContributorService">
+    <Position X="9.5" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDeleteContributorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_03_clean_architecture_ardalis.Core.Interfaces.IEmailSender">
+    <Position X="5.5" Y="7.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IEmailSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
